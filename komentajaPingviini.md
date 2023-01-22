@@ -1,5 +1,14 @@
 ##Vko 2 tehtävien dokumentointi  M1 MAC
 
+### Tehtävä tiivistelmä
+22.1.2023 22:15
+
+- Komentorivi vanhempi kuin internetti
+- Komennon suoritettua se on yleensä onnistunut, jos mitään "ei näy"
+- Sudo komennolla käyttäjä saa täydet oikeudet
+- Ohjelmat asennetaan suoraan komentoriviä käyttäen paketteina
+
+
 ### Tehtävä asenna micro
 22.1.2023 22:20
 Aloitin komennoilla:
@@ -49,7 +58,7 @@ wgetillä voi ladata netistä suoraan omaan kirjastoon. Tällä komennolla sain 
 
 
  
-## Tehtävä FHS 23:35
+### Tehtävä FHS 23:35
 En nyt ollut varma riittääkö kuvat kun on listattu kunkin paikan asiat ja pieni selostus. 
 
 Tässä aloitan rootissa jonka alla on kaikki. Homessa on kaikki käyttäjät. Käyttäjässä (Jeremy) on käyttäjän oma tiedosto minne kyseinen käyttäjä voi tallentaa dataa.
@@ -68,7 +77,7 @@ var/log sisältää erilaisia lokitiedostoja, jotka kirjaavat erilaisia tapahtum
 ![Screenshot 2023-01-22 at 23 57 15](https://user-images.githubusercontent.com/104775534/213942475-9f9b3e81-5a4d-4be1-98ed-3da811061f57.png)
 
 
-## Tehtävä näytä 2 kuvaavaa esimerkkiä grep-komennon käytöstä
+### Tehtävä näytä 2 kuvaavaa esimerkkiä grep-komennon käytöstä
 
 Tässä etsitään tiedostosta kyseinen sana.
 ![Screenshot 2023-01-23 at 0 05 34](https://user-images.githubusercontent.com/104775534/213942820-09c0a8b2-05d0-4f3d-8974-5f260eb922e8.png)
