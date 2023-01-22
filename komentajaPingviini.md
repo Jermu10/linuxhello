@@ -44,9 +44,8 @@ wgetillä voi ladata netistä suoraan omaan kirjastoon. Tällä komennolla sain 
     
     
  
-    
+   nmap pystyy scannaa verkon ja tarkistamaa avoimet portit, käynnissä olevat palvelut jne.
    ![Screenshot 2023-01-22 at 23 27 59](https://user-images.githubusercontent.com/104775534/213941352-f7fe4fed-c86f-449a-bed2-e1d5769a7596.png)
-nmap pystyy scannaa verkon ja tarkistamaa avoimet portit, käynnissä olevat palvelut jne.
 
 
  
