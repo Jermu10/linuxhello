@@ -49,5 +49,30 @@ wgetillä voi ladata netistä suoraan omaan kirjastoon. Tällä komennolla sain 
 
 
  
+## Tehtävä FHS 23:35
+En nyt ollut varma riittääkö kuvat kun on listattu kunkin paikan asiat ja pieni selostus. 
 
+Tässä aloitan rootissa jonka alla on kaikki. Homessa on kaikki käyttäjät. Käyttäjässä (Jeremy) on käyttäjän oma tiedosto minne kyseinen käyttäjä voi tallentaa dataa.
+![Screenshot 2023-01-22 at 23 45 09](https://user-images.githubusercontent.com/104775534/213942042-e00908bb-9225-4317-bb7e-fb76129e5d95.png)
+
+
+
+etc- hakemistossa on kaikkia järjestelmän hallintaan liittyviä asetustiedostoja. Nämä tiedostot määrittelevät kuinka järjestelmä toimii ja miten se on asennettu.
+![Screenshot 2023-01-22 at 23 47 56](https://user-images.githubusercontent.com/104775534/213942144-c4953281-50f6-4d15-a1b9-c342df562b10.png)
+
+Mediassa näkyy kaikki ulkoiset asemat. Kuten levyasemat ja usb-asemat.
+![Screenshot 2023-01-22 at 23 53 51](https://user-images.githubusercontent.com/104775534/213942350-5b753710-e07b-4034-b1e8-bc176f9e665c.png)
+
+var/log sisältää erilaisia lokitiedostoja, jotka kirjaavat erilaisia tapahtumia järjestelmässä. Nämä tiedostot auttavat seuraamaan ja diagnosoimaan ongelmia järjestelmässä. Esimerkiksi tiedostot kuten /var/log/auth.log sisältävät tietoja kirjautumisyrityksistä.
+
+![Screenshot 2023-01-22 at 23 57 15](https://user-images.githubusercontent.com/104775534/213942475-9f9b3e81-5a4d-4be1-98ed-3da811061f57.png)
+
+
+## Tehtävä näytä 2 kuvaavaa esimerkkiä grep-komennon käytöstä
+
+Tässä etsitään tiedostosta kyseinen sana.
+![Screenshot 2023-01-23 at 0 05 34](https://user-images.githubusercontent.com/104775534/213942820-09c0a8b2-05d0-4f3d-8974-5f260eb922e8.png)
+
+Tässä tulostaa millä rivillä kyseinen sana on.
+![Screenshot 2023-01-23 at 0 16 41](https://user-images.githubusercontent.com/104775534/213943268-faa1bf93-a14c-43a7-a863-591aad1fe73d.png)
 
