@@ -85,3 +85,6 @@ Tässä etsitään tiedostosta kyseinen sana.
 Tässä tulostaa millä rivillä kyseinen sana on.
 ![Screenshot 2023-01-23 at 0 16 41](https://user-images.githubusercontent.com/104775534/213943268-faa1bf93-a14c-43a7-a863-591aad1fe73d.png)
 
+### Lähteet
+
+https://terokarvinen.com/2020/command-line-basics-revisited/?fromSearch=command%20line%20basics%20revisited
