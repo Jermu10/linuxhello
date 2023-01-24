@@ -33,6 +33,7 @@ Lataan lshw:
     sudo apt-get install lshw
     
 ![Screenshot 2023-01-22 at 22 41 29](https://user-images.githubusercontent.com/104775534/213939316-cce2d1ca-0376-47eb-9714-d891101fa91e.png)
+
 Tarkemmin en osaa analysoida. Selkeästi QEMU on virtuaali koneen tarjoaja ja sitä on tuolla vähän jokapaikassa sen takia..
 
 ### Tehtävä Asenna itsellesi kolme uutta komentoriviohjelmaa
@@ -74,6 +75,7 @@ etc- hakemistossa on kaikkia järjestelmän hallintaan liittyviä asetustiedosto
 ![Screenshot 2023-01-22 at 23 47 56](https://user-images.githubusercontent.com/104775534/213942144-c4953281-50f6-4d15-a1b9-c342df562b10.png)
 
 Mediassa näkyy kaikki ulkoiset asemat. Kuten levyasemat ja usb-asemat.
+
 ![Screenshot 2023-01-22 at 23 53 51](https://user-images.githubusercontent.com/104775534/213942350-5b753710-e07b-4034-b1e8-bc176f9e665c.png)
 
 var/log sisältää erilaisia lokitiedostoja, jotka kirjaavat erilaisia tapahtumia järjestelmässä. Nämä tiedostot auttavat seuraamaan ja diagnosoimaan ongelmia järjestelmässä. Esimerkiksi tiedostot kuten /var/log/auth.log sisältävät tietoja kirjautumisyrityksistä.
