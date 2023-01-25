@@ -24,6 +24,7 @@ http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf
 - 1990-luvulla tilanne muuttui ja avoin lähdekoodi tuli mainstreamiksi teknisten, liiketoiminnallisten ja sosiaalisten syiden takia.
 - Free Software Foundation ja sen tukijat haluavat ohjelmiston olevan vapaa yritysvallasta, kun taas Open Source Initiative pitää avointa lähdekoodia innovoinnin tehokkaimpana tavana.
 - Lisenssoinnin käytäntöjen vaikutus on vähentynyt ja avoimen lähdekoodin käyttö ei ole muuttanut niitä kerralla koko alalla, vaan hitaasti erityisillä markkinoilla.
+- Open Source ei ole niin tiukka käyttäjäoikeuksien vapauksista, kuin mitä FSD.
 
 
 ## Tehtävä a Kolmen ohjelman lisenssit
@@ -34,8 +35,7 @@ http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf
 - Löysin lisenssin ohjelman Github sivuilta: [https://github.com/htop-dev/htop](https://github.com/htop-dev/htop/blob/main/COPYING)
 - Kyseessä on vapaa lisenssi!
 - Lisenssin tärkeimmät oikeusvaatimukset ovat: 
-  - Lähdekoodi on saatavilla kaikille
-  - Ohjelmiston käyttäjät voivat muokata ja jakaa ohjelmistoa, mutta se pitää pitää GPL-lisenssin alaisena ja julkaistava avoimesti.
+  - Ohjelmisto on saatavilla ilmaiseksi ja sen lähdekoodi on saatavilla kaikille. Käyttäjät voivat ladata, käyttää, muokata ja jakaa ohjelmistoa ilman rajoituksia.
 
 
 ### GNU Wget
@@ -67,6 +67,13 @@ Tässä kolme komentoa:
 
 ![Screenshot 2023-01-25 at 23 55 28](https://user-images.githubusercontent.com/104775534/214700291-f59e9af4-73f3-40cf-8022-949d10942eab.png)
 
+
+Lähteet: http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf
+https://www.gnu.org/philosophy/free-sw.html
+[https://github.com/htop-dev/htop](https://github.com/htop-dev/htop/blob/main/COPYING)
+https://www.gnu.org/software/wget/
+https://nmap.org/npsl/
+https://en.wikipedia.org/wiki/Free_software
 
 
 
