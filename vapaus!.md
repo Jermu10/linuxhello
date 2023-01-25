@@ -74,7 +74,7 @@ https://www.gnu.org/philosophy/free-sw.html
 https://www.gnu.org/software/wget/
 https://nmap.org/npsl/
 https://en.wikipedia.org/wiki/Free_software
-
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/#h3-vapaus
 
 
 
