@@ -20,7 +20,10 @@ FSD:n mukaan ohjelma on vapaa, jos se antaa käyttäjille nämä neljä vapautta
 
 http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf
 
-Open source licensing on lisenssi, joka antaa ihmisille oikeuden käyttää, muokata ja jakaa tiettyä ohjelmistoa. Useimmat open source -lisenssit ovat peräisin General Public License -perheestä, ja ne edellyttävät, että kaikki muokatut versiot ohjelmistosta julkaistaan avoimesti ja että ne ovat edelleen saatavilla avoimena lähdekoodina.
+- Avoin lähdekoodi on ollut osa ohjelmistoalaa alusta asti, mutta piili 1980- ja 1990-lukuilla kun kehitys ja markkinat tukivat suljettua kehitystä ja omistusoikeuslisenssointia.
+- 1990-luvulla tilanne muuttui ja avoin lähdekoodi tuli mainstreamiksi teknisten, liiketoiminnallisten ja sosiaalisten syiden takia.
+- Free Software Foundation ja sen tukijat haluavat ohjelmiston olevan vapaa yritysvallasta, kun taas Open Source Initiative pitää avointa lähdekoodia innovoinnin tehokkaimpana tavana.
+- Lisenssoinnin käytäntöjen vaikutus on vähentynyt ja avoimen lähdekoodin käyttö ei ole muuttanut niitä kerralla koko alalla, vaan hitaasti erityisillä markkinoilla.
 
 
 ## Tehtävä a Kolmen ohjelman lisenssit
