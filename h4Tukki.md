@@ -27,7 +27,7 @@ Sain nämä kaikki lokit kun avasin firefoxin. Päiväys on oikein, mutta kello 
 rkit-daemon on ilmeisesti prosessorin säätelijä, joka säätelee prosessorin tehtäviä ja varmistaa, että ne tulee tehtyä ajallaan.
 Tässä se valvoo Yhden käyttäjän kahden prosessin neljää "ketjua"
     
-    ![Screenshot 2023-01-29 at 21 51 24](https://user-images.githubusercontent.com/104775534/215352260-4574f527-a494-48eb-b8f4-6e43a11409a9.png)
+ ![Screenshot 2023-01-29 at 21 51 24](https://user-images.githubusercontent.com/104775534/215352260-4574f527-a494-48eb-b8f4-6e43a11409a9.png)
 
 ### /var/log/auth.log - Näyttää kirjautumiset ja sudon käytön
 
