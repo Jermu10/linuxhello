@@ -21,6 +21,7 @@ https://www.putorius.net/speed-test-command-line.html
       -"Run it as a server on one end you want to test, then run it as client against that server IP/hostname on the other end."
       
 ## Tehtävä a Tukki. Analysoi yksi esimerkkirivi kustakin lokista
+
 ### /var/log/syslog - yleisloki
 Sain nämä kaikki lokit kun avasin firefoxin. Päiväys on oikein, mutta kello ei. Avasin selaimen klo: 21:50 suomen aikaa.
 rkit-daemon on ilmeisesti prosessorin säätelijä, joka säätelee prosessorin tehtäviä ja varmistaa, että ne tulee tehtyä ajallaan.
@@ -57,5 +58,17 @@ Tässä kuvassa näkyy:
 ![Screenshot 2023-01-29 at 22 16 50](https://user-images.githubusercontent.com/104775534/215353523-3ef665d1-9fdd-45bb-b411-de0426225125.png)
 
 
+## Tehtävä b Aiheuta lokiin kaksi eri tapahtumaa (onnistunut ja error)
+
+Tässä loki kirjaus kun avasin selaimella localhostin.
+![Screenshot 2023-01-29 at 23 12 06](https://user-images.githubusercontent.com/104775534/215355902-eafac79f-7376-4afe-bd76-f0f9a464658c.png)
+
+Erroria ei nyt tule.. Yritin ihan maailman yksinkertaisimman komennon, että yritän mennä direcotyyn mitä ei ole. Siitä tulee error message, mutta se ei näy syslogissa.
+
+## Kättelyt
+
+Tehtävän tekoon kului 4 tuntia mikä ei ei kyllä vastauksissa näy. 
+Opin ymmärtämään lokeja vähän
+siinäpä se
 
 Lähteet: https://www.sumologic.com/blog/apache-access-log/
