@@ -51,6 +51,7 @@ Tässä kuvassa näkyy:
 ### /var/apache2/error.log
 -Tämä kertoo, että /usr/sbin/apache2 vain avattiin, mutta mitään ei ole tapahtunut
 -pid 584 on processid
+
 ![Screenshot 2023-01-29 at 22 16 50](https://user-images.githubusercontent.com/104775534/215353523-3ef665d1-9fdd-45bb-b411-de0426225125.png)
 
 
