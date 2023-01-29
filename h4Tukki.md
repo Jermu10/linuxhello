@@ -68,7 +68,10 @@ Erroria ei nyt tule.. Yritin ihan maailman yksinkertaisimman komennon, että yri
 ## Kättelyt
 
 Tehtävän tekoon kului 4 tuntia mikä ei ei kyllä vastauksissa näy. 
-Opin ymmärtämään lokeja vähän
-siinäpä se
+Opin ymmärtämään lokeja vähän.
+Siinäpä se
 
 Lähteet: https://www.sumologic.com/blog/apache-access-log/
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+https://news.ycombinator.com/item?id=21572308
+https://www.putorius.net/speed-test-command-line.html
