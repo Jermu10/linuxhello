@@ -67,7 +67,7 @@ Erroria ei nyt tule.. Yritin ihan maailman yksinkertaisimman komennon, että yri
 
 ## Kättelyt
 
-Tehtävän tekoon kului 4 tuntia mikä ei ei kyllä vastauksissa näy. 
+Tehtävän tekoon kului 4 tuntia mikä ei kyllä vastauksissa näy. 
 Opin ymmärtämään lokeja vähän.
 Siinäpä se
 
