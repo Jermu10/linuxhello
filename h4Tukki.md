@@ -37,6 +37,7 @@ Tässä lokissa näkyy kuinka aikaisemman tehtävässä, jotta sain syslogin lue
 ### /var/log/apache2/acces.log - 
 
 Tässä kuvassa näkyy:
+
 -127.0.0.1 Pyynnön tehneen ip-osoite
 -Seuraavaksi pitäisi tulla nimi, mutta se on jätetty tyhjäksi niin on vain -
 - Seuraavaksi tulee aika, jolloin pyyntö on tehty
@@ -49,6 +50,7 @@ Tässä kuvassa näkyy:
 ![Screenshot 2023-01-29 at 22 14 16](https://user-images.githubusercontent.com/104775534/215353402-37d277a8-0bfe-4c77-a035-02e5d72a8fe2.png)
 
 ### /var/apache2/error.log
+
 -Tämä kertoo, että /usr/sbin/apache2 vain avattiin, mutta mitään ei ole tapahtunut
 -pid 584 on processid
 
