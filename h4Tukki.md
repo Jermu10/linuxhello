@@ -20,7 +20,7 @@ Tässä muutama vaihtoehto:
     - Käyttää speedtest.net palvelua
     
   - iper
-    - Antaa luoda oman testaus infran: /n
+    - Antaa luoda oman testaus infran: 
       -"Run it as a server on one end you want to test, then run it as client against that server IP/hostname on the other end."
       
 ## Tehtävä a Tukki. Analysoi yksi esimerkkirivi kustakin lokista
