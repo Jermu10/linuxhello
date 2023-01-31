@@ -16,7 +16,7 @@ Tässä muutama vaihtoehto:
     - Helppo käyttöinen ja ymmärtää
     - Käyttö rajattu lähimmille servereille
     
-  - Debain repositoryn speedtest-cli
+  - Debian repositoryn speedtest-cli
     - Käyttää speedtest.net palvelua
     
   - iper
