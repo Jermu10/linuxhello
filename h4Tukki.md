@@ -7,20 +7,20 @@ https://news.ycombinator.com/item?id=21572308
 https://www.putorius.net/speed-test-command-line.html
 
 - Speedtest.net nettisivun sijaan voisi yhteyttä suoraan testata Linux komentorivillä
-- Tässä muutama vaihtoehto:
+Tässä muutama vaihtoehto:
   - Unofficial Speedtest-CLI Python Script
-    -Helppo asentaa
+    - Helppo asentaa
     
   - Official Ookla Speedtest CLI
-    -Ooklan tekemä (sama kuin speedtest.net)
-    -Helppo käyttöinen ja ymmärtää
-    -Käyttö rajattu lähimmille servereille
+    - Ooklan tekemä (sama kuin speedtest.net)
+    - Helppo käyttöinen ja ymmärtää
+    - Käyttö rajattu lähimmille servereille
     
   - Debain repositoryn speedtest-cli
-    -Käyttää speedtest.net palvelua
+    - Käyttää speedtest.net palvelua
     
   - iper
-    -Antaa luoda oman testaus infran:
+    - Antaa luoda oman testaus infran: /n
       -"Run it as a server on one end you want to test, then run it as client against that server IP/hostname on the other end."
       
 ## Tehtävä a Tukki. Analysoi yksi esimerkkirivi kustakin lokista
