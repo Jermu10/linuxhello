@@ -47,7 +47,7 @@ Tässä kuvassa näkyy:
 - Seuraavaksi tulee aika, jolloin pyyntö on tehty
 - GET /faviacon.ico HTTP/1.1 GET metodi ja pyydettävä asia
 - 404 kertoo, että page not found (taisin jotain leikkiä"
-- 487 kertoo minkä kokoinen objekti haettiin
+- 487 (bytes) kertoo minkä kokoinen objekti haettiin
 - http://localhost/ edustaa HTTP-osoitetta, josta resurssin pyyntö alkoi
 - Ja loppu rimpsu "Mozilla/5.0..." kertoo pyynnö lähettäneen asiakkaan selaimen tiedot
 
