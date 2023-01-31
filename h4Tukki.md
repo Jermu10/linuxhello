@@ -10,12 +10,15 @@ https://www.putorius.net/speed-test-command-line.html
 - Tässä muutama vaihtoehto:
   -Unofficial Speedtest-CLI Python Script
     -Helppo asentaa
+    
   -Official Ookla Speedtest CLI
     -Ooklan tekemä (sama kuin speedtest.net)
     -Helppo käyttöinen ja ymmärtää
     -Käyttö rajattu lähimmille servereille
+    
   -Debain repositoryn speedtest-cli
     -Käyttää speedtest.net palvelua
+    
   -iper
     -Antaa luoda oman testaus infran:
       -"Run it as a server on one end you want to test, then run it as client against that server IP/hostname on the other end."
