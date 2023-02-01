@@ -86,3 +86,15 @@ Tämän jälkeen näkyy:
 
 ## Tehtävä c - Tee validi HTML5 sivu
   
+  Teen nyt oman käyttäjäni sivun (localhost/~jeremy) html muotoiseksi: 
+  
+  Elikkäs mennää sinne public html kansioon ja muokataan index.html kansiota ja kirjotellaa sinne maailman yksinkertaisinta html:ää.
+  
+  
+  ![Screenshot 2023-02-01 at 18 44 44](https://user-images.githubusercontent.com/104775534/216107004-7078e3d7-381f-451e-a347-c06861f93674.png)
+
+Ja lopputulos: 
+
+![Screenshot 2023-02-01 at 18 45 19](https://user-images.githubusercontent.com/104775534/216107140-b60cf039-0735-4c51-9273-a150c8a11cbd.png)
+
+  
