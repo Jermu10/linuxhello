@@ -98,3 +98,14 @@ Ja lopputulos:
 ![Screenshot 2023-02-01 at 18 45 19](https://user-images.githubusercontent.com/104775534/216107140-b60cf039-0735-4c51-9273-a150c8a11cbd.png)
 
   
+## Kättelyt 
+
+Tehtävään kului aikaa n. tunti plus podcast puol tuntii. Opin ymmärtämään enemmän miten linuxissa hommat toimii ja hemmetin hyvän podcastin.
+Toivottavasti ymräsin tehtävä b oikein ja, että vastaukseni on riittävä.
+
+## Lähteet: 
+
+https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+https://terokarvinen.com/2008/install-apache-web-server-on-ubuntu-4/
+https://linuxize.com/post/how-to-create-a-sudo-user-on-debian/
+https://share.transistor.fm/s/940ae75e
