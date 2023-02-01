@@ -8,9 +8,8 @@ Shopify sovellus on kauppasivusto, missä Shopify myyjä voi myydä tuotteitaan.
 Shopifylla on omakin sovellus, mutta siinä ei ole kaikkea, mitä myyjät haluavat. Joten markkinarako oli olemassa.
 
 - Aloitti luomaan shopify sovelluksia, mutta kukaan ei aluksi ollut kiinnostunut
-- Muutaman yrityksen jälkeen, hän lähti Facebook sivustoilta (shopify kauppioiden), että minkälaista kaikkea he oikein tarvitsisivat sovellukseltaan
+- Muutaman yrityksen jälkeen, hän lähti kyselemään Facebook sivustoilta (shopify kauppioiden), että minkälaista kaikkea he oikein tarvitsisivat sovellukseltaan
 - Tämän jälkeen hän teki sovelluksen, joka sai suosiota vähän.
 - Isoin muutos tapahtui (suosion kasvu), kun hän rupesi seuraamaan asiakkaidensa dataa ja muokkaamaan sovellusta sen mukaan
   - Hänen Conversation rate (sivuston vierailijat jaettuna ostot) yli tuplaantui
-- Datan keruulla, hän pystyi muokkaamaan sivustoa siten, että asiakkaat ostivat sen
-  - Esim. tekemällä näyttämällä visuaalisest alussa, mitä kaikkea mitäkin nappula tekee
+  - Esim. näyttämällä visuaalisest alussa, mitä kaikkea mitäkin nappula tekee
