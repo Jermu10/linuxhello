@@ -4,8 +4,8 @@
 
 Kuuntelin Indie Hackersin uusimman (#266) jakson, jossa Mat De Sousa kertoi urastaan Shopify sovellus kehittäjänä. 
 
-- Shopify sovellus on kauppasivusto, missä Shopify myyjä voi myydä tuotteitaan.
-- Shopifylla on omakin sovellus, mutta siinä ei ole kaikkea, mitä myyjät haluavat. Joten markkinarako oli olemassa.
+Shopify sovellus on kauppasivusto, missä Shopify myyjä voi myydä tuotteitaan.
+Shopifylla on omakin sovellus, mutta siinä ei ole kaikkea, mitä myyjät haluavat. Joten markkinarako oli olemassa.
 
 - Aloitti luomaan shopify sovelluksia, mutta kukaan ei aluksi ollut kiinnostunut
 - Muutaman yrityksen jälkeen, hän lähti Facebook sivustoilta (shopify kauppioiden), että minkälaista kaikkea he oikein tarvitsisivat sovellukseltaan
