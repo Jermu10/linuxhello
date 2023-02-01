@@ -44,9 +44,9 @@ Tässä b tulos
 
 ### Tehdään uusi käyttäjä:
   
-  sudo adduser testi
+    sudo adduser testi
   
-  sudo usermod -aG sudo testi
+    sudo usermod -aG sudo testi
 
 Sitten mennään testaamaan sillä käyttäjällä tuliko sudo oikeudet. Ja tulihan ne (jos sudo whoami output on root).
 
@@ -60,14 +60,14 @@ Alkutilanne
 
 Olettamukseni on että vaiheet:
 
-$ sudo a2enmod userdir
-$ sudo /etc/init.d/apache2 restart
+    sudo a2enmod userdir
+    sudo /etc/init.d/apache2 restart
 
 Ei tarvitse tehdä uudella käyttäjällä, koska se on jo kerran tehty aikaisemmin toisella käyttäjällä, mutta samalla juuri käyttäjällä.
 
 Seuraavaksi tehdään public_html kansio käyttäjän hakemistoon:
 
-  mkdir public_html
+    mkdir public_html
   
 Tämän jälkeen nettisivulla localhost/~testi näkyy hakemisto:
 
@@ -75,9 +75,9 @@ Tämän jälkeen nettisivulla localhost/~testi näkyy hakemisto:
 
 Sitten tehdään vielä nettisivu:
 
-  cd public_html
+    cd public_html
   
-  micro index.html
+    micro index.html
   
 Tämän jälkeen näkyy: 
   
