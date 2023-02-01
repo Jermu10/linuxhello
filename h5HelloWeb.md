@@ -23,7 +23,7 @@ Alkutilanne
 
 ![Screenshot 2023-02-01 at 17 45 43](https://user-images.githubusercontent.com/104775534/216091733-89aaf8aa-8f8a-4440-afa8-3af2bcbf74e8.png)
 
-Muokkasin tiedostoa microlla: Poistin kaikki html jutut ja jätin tilalle vain tekstin. Kun tallensin micro pyysi, että tallennetaanko tämä sudona,
+Muokkasin tiedostoa microlla: Poistin kaikki html jutut ja jätin tilalle vain tekstin. Kun tallensin micro pyysi, että tallennetaanko tämä sudona (vaati siis, että pitää olla sudo jos haluaa tallentaa,
 jonka jälkeen laitoin salasanani ja done.
 
 ![Screenshot 2023-02-01 at 17 50 26](https://user-images.githubusercontent.com/104775534/216093388-2dd10d4f-bced-46c4-8447-44a800795e16.png)
