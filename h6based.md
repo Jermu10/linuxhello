@@ -1,5 +1,21 @@
 # H6 Sunnuntai 5.2.2023
 
+## x - lue ja tiivistä 
+
+### Apache Software Foundation 2023: Getting Strated https://httpd.apache.org/docs/2.4/getting-started.html
+
+- Internetin osoitteet esitetään URL:na - Uniform Resource Locators
+- Samalla ip-osoitteella voi olla monia hostnameja
+- Yhdistääkseen serveriin, asiakkaan pitää laittaa serverinnimi ip-osoitteeksi(?)
+- Nettisivuilla voi olla staattista ja dynaamista "materiaalia"
+
+### Apache SoftWare Foundation 2023: Name-based Virtual Host Support https://httpd.apache.org/docs/current/vhosts/name-based.html
+
+- IP-pohjainen virtuaali hostaus käyttää ip osoitetta yhdistääkeen oikeaan palvelimeen ja vaatii erillisen IP-osoitteen jokaiselle palvelimelle
+- Nimipohjainen virtuaalipalvelin ottaa asiakkaan ilmoittaman hostnamen HTTP palkkiin.
+-  Kun pyyntö tulee serveri etsii <VirtualHost> parhaan osuman IP-osoitteen ja pyytäjän portin perusteella.
+
+
 ## a - Vaihda Apachen esimerkkisivu omaan!
 
 Alkutilanne
@@ -73,4 +89,12 @@ Korjasin virheen ja kokeilin että sivu taas toimii:
 ![Screenshot 2023-02-06 at 0 31 56](https://user-images.githubusercontent.com/104775534/216849680-57771a09-b952-47dc-9d3f-24885fbf91e8.png)
 
 
+## Kättelyt
+
+Aikaa meni n. 2h. Tein ekan tehtävän vikana ja luetunymmärtäminen oli tähän aikaan illasta kyllä tuskaisaa. Hyvin rupeaa jo tuolla komentokentässä löytymään okea directoryt jne.
+
+Lähteet: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+https://jvaris.wordpress.com/2014/03/03/linux-server-task-5-apache-name-based-virtual-hosting/
+https://httpd.apache.org/docs/2.4/getting-started.html
+https://httpd.apache.org/docs/current/vhosts/name-based.html
 
