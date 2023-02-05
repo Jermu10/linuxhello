@@ -49,12 +49,28 @@ Alkutilanne: Otin 'reguire all granted' pois ja restarttasin apachen. Kotisivun 
   
 ![Screenshot 2023-02-05 at 23 17 54](https://user-images.githubusercontent.com/104775534/216846374-2a91a93b-2bd2-41ee-be7c-07d2822825db.png)
 
-menin katsomaan apachen error logit ja sinne oli ilmestunyt tälläista:
+menin katsomaan apachen error.logit ja sinne oli ilmestunyt tälläista:
         
 ![Screenshot 2023-02-05 at 23 22 10](https://user-images.githubusercontent.com/104775534/216846773-e661eebc-e4cc-4874-8423-cc2f976f47b6.png)
 
 Elikkä authz_core:error tuli, joka voisikin jo viitata, että nyt ei ole asetuksissa kaikkia oikeuksia annettu. Pid:hän oli tuo prosessin id.
 
+Sitten kävin katsomassa apache2ctl configtestin:
 
-        
-    
+![Screenshot 2023-02-06 at 0 01 05](https://user-images.githubusercontent.com/104775534/216848416-cde4f30b-69c7-465f-b541-4979a3769f5e.png)
+
+Ei sano vielä mitään, mutta katotaan miten muuttuu kun korjataan tilanne.
+
+### Tiedostojen vertaus
+
+Sain tiedostot näkymään kivasti päällekkäin ilman defaultin kommentteja tällä komennolla:
+
+![Screenshot 2023-02-06 at 0 22 22](https://user-images.githubusercontent.com/104775534/216849282-8bcde615-ac3a-4ca4-a01f-832631969739.png)
+
+
+Korjasin virheen ja kokeilin että sivu taas toimii:
+
+![Screenshot 2023-02-06 at 0 31 56](https://user-images.githubusercontent.com/104775534/216849680-57771a09-b952-47dc-9d3f-24885fbf91e8.png)
+
+
+
