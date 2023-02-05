@@ -32,7 +32,7 @@ Luodaan koti hakemistoon directory ja sinne haluama html sivu
  Seuraavaksi mennään apachen sites-available directoryyn ja luodaan sinne etusivu.conf tiedosto
  
     cd /etc/apache2/sites-available
-    sudoedit etusivu.conf
+    sudo micro etusivu.conf
     
  Sitten kirjoitetaan etusivu.conf tiedostoon rootti, mistä nettisivu haetaan
  
