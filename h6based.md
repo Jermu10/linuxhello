@@ -33,6 +33,7 @@ Luodaan koti hakemistoon directory ja sinne haluama html sivu
         sudo systemctl restart apache2
         
 Ja loppunäkymä kun sivu päivitetään:
+
 ![Screenshot 2023-02-05 at 23 02 24](https://user-images.githubusercontent.com/104775534/216845602-0246bdfd-4eba-4476-b522-5b90e1275c40.png)
 
 Kokeillaan tehdä myös muokkaus sivulle ilman sudoa:
