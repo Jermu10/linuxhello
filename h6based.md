@@ -45,7 +45,7 @@ Kokeillaan tehdä myös muokkaus sivulle ilman sudoa:
 
 ## Tehtävä b tee asetustiedostoon virhe ja etsi se
 
-Alkutilanne: Otin 'reguire all granted' pois ja restarttasin apachen. Kotisivun näkymä muuttui täksi: 
+Alkutilanne: Otin 'reguire all granted' pois etusivu.conf-tiedostosta ja restarttasin apachen. Kotisivun näkymä muuttui täksi: 
   
 ![Screenshot 2023-02-05 at 23 17 54](https://user-images.githubusercontent.com/104775534/216846374-2a91a93b-2bd2-41ee-be7c-07d2822825db.png)
 
