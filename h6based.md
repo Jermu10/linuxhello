@@ -43,8 +43,18 @@ Kokeillaan tehdä myös muokkaus sivulle ilman sudoa:
 ![Screenshot 2023-02-05 at 23 06 28](https://user-images.githubusercontent.com/104775534/216845798-375b11d9-4e4a-4792-bbf7-b69e12750add.png)
 
 
+## Tehtävä b tee asetustiedostoon virhe ja etsi se
+
+Alkutilanne: Otin 'reguire all granted' pois ja restarttasin apachen. Kotisivun näkymä muuttui täksi: 
   
-    
-    
+![Screenshot 2023-02-05 at 23 17 54](https://user-images.githubusercontent.com/104775534/216846374-2a91a93b-2bd2-41ee-be7c-07d2822825db.png)
+
+menin katsomaan apachen error logit ja sinne oli ilmestunyt tälläista:
+        
+![Screenshot 2023-02-05 at 23 22 10](https://user-images.githubusercontent.com/104775534/216846773-e661eebc-e4cc-4874-8423-cc2f976f47b6.png)
+
+Elikkä authz_core:error tuli, joka voisikin jo viitata, että nyt ei ole asetuksissa kaikkia oikeuksia annettu. Pid:hän oli tuo prosessin id.
+
+
         
     
