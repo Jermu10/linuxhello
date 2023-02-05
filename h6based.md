@@ -20,7 +20,7 @@
 
 Alkutilanne
     
-[Screenshot 2023-02-05 at 22 48 09](https://user-images.githubusercontent.com/104775534/216844987-b46148db-c895-44b5-b49e-8ed9ca37d300.png)
+![Screenshot 2023-02-05 at 22 48 09](https://user-images.githubusercontent.com/104775534/216844987-b46148db-c895-44b5-b49e-8ed9ca37d300.png)
 
 
 Luodaan koti hakemistoon directory ja sinne haluama html sivu
