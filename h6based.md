@@ -59,7 +59,7 @@ Sitten kävin katsomassa apache2ctl configtestin:
 
 ![Screenshot 2023-02-06 at 0 01 05](https://user-images.githubusercontent.com/104775534/216848416-cde4f30b-69c7-465f-b541-4979a3769f5e.png)
 
-Ei sano vielä mitään, mutta katotaan miten muuttuu kun korjataan tilanne.
+Ei sano vielä mitään, mutta katotaan miten muuttuu kun korjataan tilanne. UPDATE: Korjatussa ei ollut mitään erilailla tuohon eli ei virheitä.
 
 ### Tiedostojen vertaus
 
