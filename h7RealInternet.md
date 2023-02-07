@@ -42,10 +42,25 @@ Ota palvelimeen yhteys ja asenna ufw, salli ssh yhdistelmä ja käynnistä.
         sudo apt install apache2
         sudo apt-get upgrade // toivottavasti tämäkin piti tehdä
         
+   Apache latauksen jälkeen, ei tarvinut tehdä viimetunnilta tuttua 'systemctl apache2 start' tai joku sinnepäin. Nettisivu toimi silti.
    
    
+ ## Tehtävä c - Muokkaa weppipalvelimen testisivua ja salli palomuurista 80/tcp
+ 
+Alkutilanteen kuva katosi, mutta kun yritti mennä ip-osoitteen nettisivulle, mitään ei tapahtunut ja näytti, että lataa vain.
+
+Sitten muokataan testisivua ja tehdään reikä palomuuriin:
+
+    echo testi | sudo tee /var/www/html/index.html
+    sudo ufw allow 80/tcp
    
+   Ja tulos: 
    
+   ![Screenshot 2023-02-08 at 0 03 07](https://user-images.githubusercontent.com/104775534/217376870-1d650a71-a7cb-4ec1-9ba6-f51c50b2bc15.png)
+
    
-   
-   
+## Tehtävä d - etsi murtautujia
+
+Etsin murtautujia:
+
+    sudo less /var/log/auth.log
