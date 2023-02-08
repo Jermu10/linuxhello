@@ -74,5 +74,13 @@ Etsin murtautujia:
 
     sudo less /var/log/auth.log
     
- ![Screenshot 2023-02-08 at 18 20 53](https://user-images.githubusercontent.com/104775534/217588907-928eed07-8780-4198-aa3e-9eebfa0aaf51.png)
+-   Ilmeisesti tässä on sshd[29113] on tapahtuman id. ja authentication failure johtuu vääristä tunnuksista mitkä käyttäjä antanut(?)
+-   Sitten seuraavassa logissa sanotaan, että failed password for root from ilmeisesti kirjautujan IP-osoitteesta
+    
+![Screenshot 2023-02-08 at 18 20 53](https://user-images.githubusercontent.com/104775534/217588907-928eed07-8780-4198-aa3e-9eebfa0aaf51.png)
+
+Tässä näkyy kuin menin puhelimellani nettisivulle. Kertoo aika tarkasti puhelimen käyttöjärjestelmän-, liittymän- ja Safarin versiot
+
+ ![Screenshot 2023-02-08 at 18 41 23](https://user-images.githubusercontent.com/104775534/217594542-c48e9203-91ab-41ed-9ecd-4a8de4e8bb70.png)
+
 
