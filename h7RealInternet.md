@@ -85,6 +85,6 @@ Tässä näkyy kuin menin puhelimellani nettisivulle. Kertoo aika tarkasti puhel
 
 ## Kättelyt
 
-Kellonajat ja ajankäytöt meni kyllä ihan sekaisin, tossa kuin kaikki katosi ja joutui uusiksi kirjoittaa. Sanotaanko näin, että tunteja kesti. Opin paljon, kun jou.. pääsi käymään asiat useasti läpi niin tekemällä kuin kirjoittamalla.
+Kellonajat ja ajankäytöt meni kyllä ihan sekaisin, tossa kuin kaikki katosi ja joutui uusiksi kirjoittaa. Sanotaanko näin, että tunteja kesti. Opin paljon, kun jou.. pääsi käymään asiat useasti läpi niin tekemällä kuin kirjoittamalla. Teksti tuli toisella kirjoituskerralla vähän tiivistetymmäksi..
 
 Lähteet: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/, https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/, https://www.hostinger.com/tutorials/linux-commands
