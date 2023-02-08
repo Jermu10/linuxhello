@@ -83,4 +83,8 @@ Tässä näkyy kuin menin puhelimellani nettisivulle. Kertoo aika tarkasti puhel
 
  ![Screenshot 2023-02-08 at 18 41 23](https://user-images.githubusercontent.com/104775534/217594542-c48e9203-91ab-41ed-9ecd-4a8de4e8bb70.png)
 
+## Kättelyt
 
+Kellonajat ja ajankäytöt meni kyllä ihan sekaisin, tossa kuin kaikki katosi ja joutui uusiksi kirjoittaa. Sanotaanko näin, että tunteja kesti. Opin paljon, kun jou.. pääsi käymään asiat useasti läpi niin tekemällä kuin kirjoittamalla.
+
+Lähteet: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/, https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/, https://www.hostinger.com/tutorials/linux-commands
