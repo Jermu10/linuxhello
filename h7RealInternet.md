@@ -7,17 +7,26 @@
     
     
 Haluan alkuun suositella kaikkia tallentemaan aina välillä md tiedostoa, jos vaikka sattuu käymään niin, että juuri kun olet tehnyt koko jutun valmiiksi painat väärää nappia ja kaikki katoaa :) 
+
+## Tehtävä x - Lue ja tiivistä https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
+
+- Luo palvelin jossain palvelussa esim. Linode
+- Muista hyvät salasanat
+- Laita palomuuri päälle ja musita tehdä reiät 22/tcp ja 80/tcp
+- Tee uusi käyttäjä ja poista mahdollisuus kirjautua roottiin
+- Päivitä sovellukset
   
 ## Tehtava a - Vuokraa oma virtuaalipalvelin
 
 Päätin vuokrata virtuaalipalvelimen DigitalOceanilta.
-Kirjoitin aikasemmin kaikki kivasti, että mitä kannattaa ottaa huomioon mutta nyt en jaksa koska vituttaa
+Rekistöröityminen meni kivuttomasti.
 
 ## Tehtava b - Tee alkutoimet virtuaalipalvelimellasi.
 
 Ota palvelimeen yhteys ja asenna ufw, salli ssh yhdistelmä ja käynnistä.
 
     ssh root@IP-osoite
+    
     sudo apt-get update
     sudo apt install ufw
     sudo ufw allow 22/tcp
@@ -64,3 +73,6 @@ Sitten muokataan testisivua ja tehdään reikä palomuuriin:
 Etsin murtautujia:
 
     sudo less /var/log/auth.log
+    
+ ![Screenshot 2023-02-08 at 18 20 53](https://user-images.githubusercontent.com/104775534/217588907-928eed07-8780-4198-aa3e-9eebfa0aaf51.png)
+
