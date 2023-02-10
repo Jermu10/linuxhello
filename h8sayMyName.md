@@ -44,7 +44,7 @@ Ensiki valitaan A Record, sitten Host @ tarkoittaa URL pelkästään ja ip osoi
 Sitten tehtiin vielä toinen, jossa pääsee nettisivulle, jos kirjoittaa urlin alkuun www.
 Lopuksi vielä vaihetaan molempien TTL Automaticita 5 minuuttiin. 
 
-Jostain syystä @ sivu ei näy ja tulee 404, mutta wwww näkyy. 
+Jostain syystä @ sivu ei näy ja tulee 404, mutta www näkyy. 
 Kokeiltu Safarilla sekä Chromella.
 
 Jostain syystä @ väärä osoitekkin..
