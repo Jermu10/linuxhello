@@ -102,4 +102,4 @@ Kävin vielä huvikseni päivittämässä tuon IP-osoitteen sivun ja se päivitt
 
 Kevyt reissu ei niin sujuvaksi osoittautunutkaan, ja edelleen jäi vähän kysymysmerkiksi, miksi aluksi @ sivu ei toiminut. Aikaa kului 1,5h ja elossa ollaan.
 
-Lähteet: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/, https://en.wikipedia.org/wiki/Punycode, https://fi.wikipedia.org/wiki/Unicode, 
+Lähteet: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/, https://en.wikipedia.org/wiki/Punycode, https://fi.wikipedia.org/wiki/Unicode, https://linuxize.com/post/how-to-use-dig-command-to-query-dns-in-linux/
