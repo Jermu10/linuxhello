@@ -21,6 +21,14 @@ Haluan alkuun suositella kaikkia tallentemaan aina välillä md tiedostoa, jos v
 Päätin vuokrata virtuaalipalvelimen DigitalOceanilta.
 Rekistöröityminen meni kivuttomasti.
 
+- Luo Droplet
+- Valitse maa, missä palvelin on
+    -  Mieluusti lähin EU maa, koska toimii nopeammin ja GDPR
+- Valitse käyttöjärjestelmä palvelimelle. Valitsin tutun Debianin
+- Sitten valitaan palvelimen rauta. Halvin mahdollinen jossa 1GB muistia on hyvä, vaikka sivulla olisi tuhansia kävijöitä
+- Sitten luodaan rootin salasana tai SSH Key. Tein salasanan. HUOM! Hyvä salasana pitää olla!
+- Sitten valitaan vielä Hostname palvelimelle ja painetaan Create Droplet.
+
 ## Tehtava b - Tee alkutoimet virtuaalipalvelimellasi.
 
 Ota palvelimeen yhteys ja asenna ufw, salli ssh yhdistelmä ja käynnistä.
