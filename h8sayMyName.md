@@ -87,6 +87,9 @@ Kokeillaan molemmat sivut:
 ![Screenshot 2023-02-10 at 19 55 12](https://user-images.githubusercontent.com/104775534/218162071-163ee1db-5a38-40cb-bc27-b59bd795b6cc.png)
 
 Näissä en mitään haittoja tai eroja huomaa.
+- NOERROR tarkoittaa, että pyyntö sujui ilman ongelmia
+- QUESTION SECTION dig näyttää "kysymyksen"
+- ANSWER näyttää vastauksen, mikä IP-osoite "kysymyksen" domainissa oli
 
 ### 20:10 UPDATE: Samalla tässä kuin yritin error logeja sun muita lukea niin yhtä äkkiä (@) drinkkilinkki.com sivu rupesikin toimimaan!
 
