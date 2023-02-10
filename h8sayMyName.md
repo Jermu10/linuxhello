@@ -85,5 +85,11 @@ Kokeillaan molemmat sivut:
 
 ![Screenshot 2023-02-10 at 19 55 12](https://user-images.githubusercontent.com/104775534/218162071-163ee1db-5a38-40cb-bc27-b59bd795b6cc.png)
 
+Näissä en mitään haittoja tai eroja huomaa.
 
-20:10 UPDATE: Samalla tässä kuin yritin error logeja sun muita lukea niin yhtä äkkiä drinkkilinkki.com sivu rupesikin toimimaan!
+### 20:10 UPDATE: Samalla tässä kuin yritin error logeja sun muita lukea niin yhtä äkkiä (@) drinkkilinkki.com sivu rupesikin toimimaan!
+
+Kävin vielä huvikseni päivittämässä tuon IP-osoitteen sivun ja se päivitty heti.
+
+![Screenshot 2023-02-10 at 20 15 08](https://user-images.githubusercontent.com/104775534/218166328-2c8cae6c-c121-43eb-9d9a-92915477ac15.png)
+![Screenshot 2023-02-10 at 20 15 16](https://user-images.githubusercontent.com/104775534/218166354-104ae696-8677-4e8c-bc11-0de494a32b5f.png)
