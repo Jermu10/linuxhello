@@ -53,7 +53,7 @@ Jostain syystä @ väärä osoitekkin..
 
 ![Screenshot 2023-02-10 at 19 37 06](https://user-images.githubusercontent.com/104775534/218158700-06461732-fd58-440c-ac0e-9650027601a7.png)
 
-Kokeillaan tehdä uusi @ record. EI TOIMI.
+Kokeillaan tehdä uusi @ record namecheapissa. -> Ei toimi vieläkään.
 
 ## 19:40 b - Tutki oman nimesi tietoja 'host' ja 'dig' komennoilla
 
@@ -85,3 +85,5 @@ Kokeillaan molemmat sivut:
 
 ![Screenshot 2023-02-10 at 19 55 12](https://user-images.githubusercontent.com/104775534/218162071-163ee1db-5a38-40cb-bc27-b59bd795b6cc.png)
 
+
+20:10 UPDATE: Samalla tässä kuin yritin error logeja sun muita lukea niin yhtä äkkiä drinkkilinkki.com sivu rupesikin toimimaan!
