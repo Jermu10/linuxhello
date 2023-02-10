@@ -32,8 +32,11 @@ Nyt kun se on saatu alta pois voidaan aloittaa:
 ## Keskiviikko 18.1.2023 kotona 13:30
 Latasin tämän youtube videon avulla https://www.youtube.com/watch?v=yCTx-Xg8uuQ&t=265s ja nyt toimii nettiselainkin (firefox) 
 
+10.2.2023 UPDATE: Vaihodoin seuraavan oppitunnin jälkeen UTM kirjastosta valmiiseen Debian 11 virtuaalikoneen ja käytän sitä. En ollut muistanut lisätä sitä tänne. 
+
 13:40 Palautan tehtävän
 
+Lähteet: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/, https://www.youtube.com/watch?v=yCTx-Xg8uuQ&t=265s
 
 
 
