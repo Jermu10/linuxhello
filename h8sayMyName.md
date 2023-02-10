@@ -27,7 +27,7 @@ Sitten rekistöröidyttiin ja täällä tuli tästä äskeisestä ihmetyksestä 
 Valitsin tuohon language Finnish ja painoin Continue.
 "Unicode on tietokonejärjestelmiä varten kehitetty merkistöstandardi ja käytännössä sama kuin yleismaailmallisen merkistön määrittävä kansainvälinen standardi ISO/IEC 10646." -Wikipedia https://fi.wikipedia.org/wiki/Unicode
 "Punycode on esitys Unicodesta, jossa on rajoitettu ASCII-merkkiosajoukko" -Wikipedia https://en.wikipedia.org/wiki/Punycode
-### UPDATE: åström.orgia ei pystynyt ostamaan: IDN language Finnish is not supported. Mietin tossa, että Swedish on tuettuna, niin näppäimistöhän heillä on sama.
+### UPDATE: åström.orgia ei pystynyt ostamaan: "IDN language Finnish is not supported". Mietin tossa, että Swedish on tuettuna, niin näppäimistöhän heillä on sama.
 
 Valitaan maksutapa ja Continue..
 Näköjään, jos valitsee, että ottaa kolmen vuoden diilin, ei pääse maksamaan kerran vuodessa vuotta pois, vaan heti maksaa kaikki kolme vuotta.
