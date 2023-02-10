@@ -93,3 +93,9 @@ Kävin vielä huvikseni päivittämässä tuon IP-osoitteen sivun ja se päivitt
 
 ![Screenshot 2023-02-10 at 20 15 08](https://user-images.githubusercontent.com/104775534/218166328-2c8cae6c-c121-43eb-9d9a-92915477ac15.png)
 ![Screenshot 2023-02-10 at 20 15 16](https://user-images.githubusercontent.com/104775534/218166354-104ae696-8677-4e8c-bc11-0de494a32b5f.png)
+
+## Kättelyt
+
+Kevyt reissu ei niin sujuvaksi osoittautunutkaan, ja edelleen jäi vähän kysymysmerkiksi, miksi aluksi @ sivu ei toiminut. Aikaa kului 1,5h ja elossa ollaan.
+
+Lähteet: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/, https://en.wikipedia.org/wiki/Punycode, https://fi.wikipedia.org/wiki/Unicode, 
