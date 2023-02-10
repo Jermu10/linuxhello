@@ -19,14 +19,15 @@ Muita lisäpalveluita en ota, koska en niitä tarvitse.
 
 ![Screenshot 2023-02-10 at 18 55 17](https://user-images.githubusercontent.com/104775534/218150163-60f0cb0a-d4e4-46b7-ad6c-47aa482ef444.png)
 
-Sitten rekistöröidyttiin ja täällä tuli tästä äskeisestä ihmetyksestä lisäkyselyä: UPDATE: åström.orgia ei pystynyt ostamaan: IDN language Finnish is not supported. Mietin tossa, että Swedish on tuettuna, niin näppäimistöhän heillä on sama.
+Sitten rekistöröidyttiin ja täällä tuli tästä äskeisestä ihmetyksestä lisäkyselyä: 
+
 
 ![Screenshot 2023-02-10 at 19 01 28](https://user-images.githubusercontent.com/104775534/218151673-fa2e352c-12a0-4d62-af8d-9e7af9b1023e.png)
 
 Valitsin tuohon language Finnish ja painoin Continue.
 "Unicode on tietokonejärjestelmiä varten kehitetty merkistöstandardi ja käytännössä sama kuin yleismaailmallisen merkistön määrittävä kansainvälinen standardi ISO/IEC 10646." -Wikipedia https://fi.wikipedia.org/wiki/Unicode
 "Punycode on esitys Unicodesta, jossa on rajoitettu ASCII-merkkiosajoukko" -Wikipedia https://en.wikipedia.org/wiki/Punycode
-
+### UPDATE: åström.orgia ei pystynyt ostamaan: IDN language Finnish is not supported. Mietin tossa, että Swedish on tuettuna, niin näppäimistöhän heillä on sama.
 
 Valitaan maksutapa ja Continue..
 Näköjään, jos valitsee, että ottaa kolmen vuoden diilin, ei pääse maksamaan kerran vuodessa vuotta pois, vaan heti maksaa kaikki kolme vuotta.
