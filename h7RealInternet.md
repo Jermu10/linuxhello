@@ -4,6 +4,7 @@
     Apple M1 Pro
     Cores 10
     Memory 16GB
+    macOS Ventura 13.2
     
     
 Haluan alkuun suositella kaikkia tallentemaan aina välillä md tiedostoa, jos vaikka sattuu käymään niin, että juuri kun olet tehnyt koko jutun valmiiksi painat väärää nappia ja kaikki katoaa :) 
