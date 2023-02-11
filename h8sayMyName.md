@@ -9,13 +9,11 @@
     
 ## a - Vuokraa domainnimi ja aseta se virtuaalipalvelimeesi
 
-Päätin vuokrata parikin nimeä Namecheap-palvelusta: drinkkilinkki.com ja åström.org
+Päätin vuokrata parikin nimeä Namecheap-palvelusta: drinkkilinkki.com ja åström.org.
 Ostoskorissa valitaan haluatko auto-renewin päälle ja moneksi vuodeksi.
 Domain privacyn pidän päällä. PremiumDNS ei tarvitse.
 Muita lisäpalveluita en ota, koska en niitä tarvitse.
 åström.org domain registration näyttää epäilyttävältä, mutta kokeillaan..
-
-
 
 ![Screenshot 2023-02-10 at 18 55 17](https://user-images.githubusercontent.com/104775534/218150163-60f0cb0a-d4e4-46b7-ad6c-47aa482ef444.png)
 
