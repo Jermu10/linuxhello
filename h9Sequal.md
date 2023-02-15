@@ -32,3 +32,38 @@ Käytetään esimerkkinä jotain verkkokauppaa esim. Gigantti. Webbiselaimella v
 
     psql
 
+![Screenshot 2023-02-16 at 1 08 39](https://user-images.githubusercontent.com/104775534/219211042-d805fb61-93ed-4460-a212-4fcd82e1b2db.png)
+
+Kun käyttäjän perässä näkyy => on sovellus käynnissä ja voi kirjoittaa SQL:ää.
+
+## b - Kokeile CRUD (create, read, update, delete) läpi
+
+### Aloitetaan luomalla taulu ja sinne muutama tieto
+
+Luodaan taulu ja määritetään, että jokaisen taulun tiedolla on id numero, joka on sen pääavain sekä nimi jossa saa olla max 200 merkkiä.
+
+    CREATE TABLE fruits (id SERIAL PRIMARY KEY, name VARCHAR(200));
+
+Lisätään tauluun banaani ja katsotaan menikö se tauluun
+
+    INSERT INTO fruits(name) VALUES ('Banana');
+    SELECT * FROM fuits;
+    
+![Screenshot 2023-02-16 at 1 19 30](https://user-images.githubusercontent.com/104775534/219214366-cc66f975-cb06-43e7-8178-ab072d981c31.png)
+
+### Muokataan 'Banana' ja poistetaan 'Mango'
+
+UPDATE fruits SET name='Banaani' WHERE name='BANANA';
+
+DELETE FROM fruits WHERE name='Mango';
+
+SELECT * FROM fruits
+
+![Screenshot 2023-02-16 at 1 26 49](https://user-images.githubusercontent.com/104775534/219215604-5b947b08-b154-497d-b4fd-ee09100b9b79.png)
+
+
+
+    
+    
+
+
