@@ -53,11 +53,11 @@ Lisätään tauluun banaani ja katsotaan menikö se tauluun
 
 ### Muokataan 'Banana' ja poistetaan 'Mango'
 
-UPDATE fruits SET name='Banaani' WHERE name='BANANA';
+    UPDATE fruits SET name='Banaani' WHERE name='BANANA';
 
-DELETE FROM fruits WHERE name='Mango';
+    DELETE FROM fruits WHERE name='Mango';
 
-SELECT * FROM fruits
+    SELECT * FROM fruits
 
 ![Screenshot 2023-02-16 at 1 26 49](https://user-images.githubusercontent.com/104775534/219215604-5b947b08-b154-497d-b4fd-ee09100b9b79.png)
 
