@@ -65,7 +65,7 @@ Lisätään tauluun banaani ja katsotaan menikö se tauluun
 
 ## Kättelyt 01.28
 
-Kaikki sujui mallikkaasti niinkuin tunnillakin ja opin luomaan tietokannan koneelleni.
+Kaikki sujui mallikkaasti niinkuin tunnillakin ja opin luomaan tietokannan koneelleni. Aikaa kului 45min.
 
 ## Lähteet
 
