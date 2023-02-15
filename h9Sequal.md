@@ -8,3 +8,13 @@
 
 ## x - Esimerkki palvelusta, jota käytetään wepissä selaimella, koodi ajetaan palvelimella ja taustalla on tietokanta
 
+Käytetään esimerkkinä jotain verkkokauppaa esim. Gigantti. Webbiselaimella voi selata tuotteita, jotka palvelin hakee tietokannasta. 
+--> Asiakas haluaa tuotteen --> palvelin hakee tietokannasta, onko tuotteita jäljellä ja missä --> asiakas tilaa tuotteen --> palvelin tekee tilaus pyynnön joka näkyy myyjälle.
+
+-   Nettisivulla pelkkä käyttöliittymä, joka näyttää tuotteet, jotka ollaan haettu palvelimen avulla tietokannasta
+-   Webbiselaimen käyttö: 
+    - Tekee käyttöliittymästä "kevyitä" ja nopeasti suoriutuvia
+    - Toimii useammilla laitteilla
+- Backendi palvelimella helpottaa monella tavalla
+    - Käyttäjän ei tarvitse ladata ja päivitellä mitään ohjelmaa omalla koneella
+    - Backendin päivitys ja muokkaus helppoa, koska vain yhdessä paikkaa mistä moni pääsii käsiksi
