@@ -63,7 +63,14 @@ Lisätään tauluun banaani ja katsotaan menikö se tauluun
 
 
 
-    
-    
+## Kättelyt 01.28
+
+Kaikki sujui mallikkaasti niinkuin tunnillakin ja opin luomaan tietokannan koneelleni.
+
+## Lähteet
+
+https://terokarvinen.com/2016/03/03/install-postgresql-on-ubuntu-new-user-and-database-in-3-commands/?fromSearch=postgre, https://terokarvinen.com/2016/postgresql-install-and-one-table-database-sql-crud-tutorial-for-ubuntu/, https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+
+
 
 
