@@ -1,10 +1,10 @@
 # h10 - DJ Ango Sunnuntai 26.2.2023 22:30
 
 Specs:
-Apple M1 Pro
-Cores 10
-Memory 16GB
-macOS Ventura 13.2
+-   Apple M1 Pro
+-   Cores 10
+-   Memory 16GB
+-   macOS Ventura 13.2
 
 ## a - tee oma tietokantasovellus 
 
