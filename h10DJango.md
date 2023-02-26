@@ -73,9 +73,53 @@ tulos:
 
 ![Screenshot 2023-02-26 at 23 34 00](https://user-images.githubusercontent.com/104775534/221438684-f9295903-6b01-49bf-b844-595aa04097fb.png)
 
-Luodaan käyttäjä sivun 
+Luodaan käyttäjä sivun "users     add" kohdasta
 
 
+Valitaan uudelle käyttäjälle staff- ja superuser-statukset
+
+![Screenshot 2023-02-26 at 23 37 36](https://user-images.githubusercontent.com/104775534/221438903-d472cd3b-c0c9-4c58-a173-a7db8c77b866.png)
+
+TULOS! Kirjaudutaan uudella käyttäjällä: 
+
+![Screenshot 2023-02-26 at 23 39 41](https://user-images.githubusercontent.com/104775534/221439041-791ff31a-a81a-43a8-a63d-a722ff1bc1b7.png)
+
+## Luodaan Database
+
+Luodaan uusi "sovellus" nimeltä mbg (MyBackGraden)
+
+    ./manage.py startapp mbg
+    
+lisätään mbg ympäristöön: INSTALLED_APPS = ['mbg',]
+
+        micro garden/settings.py 
+
+![Screenshot 2023-02-27 at 0 09 07](https://user-images.githubusercontent.com/104775534/221440413-f7a74243-25ba-4111-b3f1-bf7095bd9624.png)
+
+Seuraavaksi luodaan scripti, jolla django luo automaattisesti databasen
+
+        micro mbg/models.py
+        
+![Screenshot 2023-02-27 at 0 13 15](https://user-images.githubusercontent.com/104775534/221440591-12f0e9ee-bd05-4194-84ca-4cab9352feac.png)
+
+Seuraavaksi päivitetään databaset, jossa pitäisi näkyä mbg
+
+        ./manage.py makemigrations
+        ./manage.py migrate
+        
+tulos: 
+
+![Screenshot 2023-02-27 at 0 16 50](https://user-images.githubusercontent.com/104775534/221440763-72ca5ebc-7e5e-43a5-ad85-d3ee77a92051.png)
+
+![Screenshot 2023-02-27 at 0 17 27](https://user-images.githubusercontent.com/104775534/221440787-ff954510-aaf0-4e11-a9cc-2360fdca8702.png)
+    
+Jotta voidaan nähdä admin sivulla databasemme, se pitää rekistörödä sinne
+
+    micro mbg/admin.py
+    
+
+        
+        
 
 
 
