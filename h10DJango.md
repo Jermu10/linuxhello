@@ -86,7 +86,7 @@ TULOS! Kirjaudutaan uudella käyttäjällä:
 
 ## Luodaan Database
 
-Luodaan uusi "sovellus" nimeltä mbg (MyBackGraden)
+Luodaan uusi "sovellus" nimeltä mbg (MyBackGarden)
 
     ./manage.py startapp mbg
     
