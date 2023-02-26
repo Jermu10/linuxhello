@@ -12,6 +12,7 @@ Seuraavaksi luodaan env niminen ympäristö
     virtualenv --system-site-packages -p python3 env/
     
 --system-site-packages = ympäristössä käytetään globaalia python-asennusta ja sen kirjostoja
+
 -p python3 = Määrittää pythonin version3 ympäristöön
 
 Seuraavaksi aktivoidaan luomamme env/ ympäristö
