@@ -117,9 +117,44 @@ Jotta voidaan nähdä admin sivulla databasemme, se pitää rekistörödä sinne
 
     micro mbg/admin.py
     
+![Screenshot 2023-02-27 at 0 20 48](https://user-images.githubusercontent.com/104775534/221440928-4112174e-3366-40f6-a3a6-eadfc42645da.png)
 
         
-        
+Mennään katsomaan tulos
+
+    ./manage.py runserver
+    
+Tulos: 
+
+![Screenshot 2023-02-27 at 0 22 21](https://user-images.githubusercontent.com/104775534/221441017-f574146d-5240-4f7c-926f-e5544d023540.png)
+
+Kokeillaan luoda, muokata ja poistaa hedelmä nettisivulla:
+
+Lisäys: ![Screenshot 2023-02-27 at 0 23 36](https://user-images.githubusercontent.com/104775534/221441077-c7247fbc-728f-4297-9575-5b2889034b5e.png)
+
+Muokkaus: ![Screenshot 2023-02-27 at 0 24 18](https://user-images.githubusercontent.com/104775534/221441106-27085a2e-03b5-440e-87f6-5f0f27684a22.png)
+
+Poisto: ![Screenshot 2023-02-27 at 0 24 38](https://user-images.githubusercontent.com/104775534/221441120-c320ae21-18cc-4a07-8fba-6dedcfde1731.png)
+
+## Vaihdetaan vielä, että nimet näkyvät
+
+    micro mbg/models.py
+    
+Lisätään maalatut scriptit:
+
+![Screenshot 2023-02-27 at 0 30 07](https://user-images.githubusercontent.com/104775534/221441369-436d446d-99db-480b-a07f-34a2a8f68194.png)
+
+Tulos: 
+
+![Screenshot 2023-02-27 at 0 30 57](https://user-images.githubusercontent.com/104775534/221441405-55263c11-5a79-45e3-af45-04a72248e05a.png)
 
 
+
+## Kättelyt 00.30
+
+Rennosti tehdessä aikaa kului 2 tuntia. Ihan hyvin meni siihen nähden, etten viime tunnille päässyt.
+
+## Lähteet
+
+https://terokarvinen.com/2022/django-instant-crm-tutorial/ , https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/ , https://docs.djangoproject.com/en/4.1/topics/db/examples/many_to_one/
 
