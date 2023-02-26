@@ -2,12 +2,12 @@
 
 ## a - tee oma tietokantasovellus 22:30
 
-Aloitetaan lataamalla virtualenv, joka on python kehitysympäristö
+### Aloitetaan lataamalla virtualenv, joka on python kehitysympäristö
 
     sudo apt-get update
     sudo apt-get install virtualenv
     
-Seuraavaksi luodaan env niminen ympäristö
+### Seuraavaksi luodaan env niminen ympäristö
 
     virtualenv --system-site-packages -p python3 env/
     
@@ -15,7 +15,7 @@ Seuraavaksi luodaan env niminen ympäristö
 
 -p python3 = Määrittää pythonin version3 ympäristöön
 
-Seuraavaksi aktivoidaan luomamme env/ ympäristö
+### Seuraavaksi aktivoidaan luomamme env/ ympäristö
 
     source env/bin/activate
     
@@ -23,7 +23,7 @@ Komennon jälkeen alkuun tuli env/
 
 ![Screenshot 2023-02-26 at 22 51 56](https://user-images.githubusercontent.com/104775534/221436565-e90887eb-dab8-4e4d-a5b2-086a58bd0709.png)
 
-Seuraavaksi luodaan tekstitiedosto, joka kertoo, että haluamme "django" nimisen python-paketin
+### Seuraavaksi luodaan tekstitiedosto, joka kertoo, että haluamme "django" nimisen python-paketin
 Luodaan requirements.txt jonka sisään kirjoitetaan "django" ja tarkastetaan, että meni oikein
 
     micro requirements.txt
@@ -33,7 +33,7 @@ tulos:
     
 ![Screenshot 2023-02-26 at 22 58 56](https://user-images.githubusercontent.com/104775534/221436943-9b373fc2-49f6-4995-9a44-d0c947fc991a.png)
 
-Seuraavaksi lisätään requirements.txt ympäristöömme ja tarkistetaan django versio
+### Seuraavaksi lisätään requirements.txt ympäristöömme ja tarkistetaan django versio
 
     pip install -r requirements.txt
     django-admin --version
@@ -42,7 +42,7 @@ Tulos:
 
 ![Screenshot 2023-02-26 at 23 02 14](https://user-images.githubusercontent.com/104775534/221437095-c4d31aa3-74ee-4a66-bf16-680c4613a8ab.png)
 
-Seuraavaksi luodaan django-projekti ja käynnistetään se!
+### Seuraavaksi luodaan django-projekti ja käynnistetään se!
 
     django-admin startproject garden
     cd garden
@@ -54,7 +54,7 @@ tulos konsolista ja portista http://127.0.0.1:8000/:
 
 ![Screenshot 2023-02-26 at 23 09 53](https://user-images.githubusercontent.com/104775534/221437469-c954717a-8286-4928-9e5f-87061ef04d8e.png)
 
-Seuraavaksi päivitetään databaset, jotta voidaan luoda käyttäjä sivulle
+### Seuraavaksi päivitetään databaset, jotta voidaan luoda käyttäjä sivulle
 
       ./manage.py makemigrations
       ./manage.py migrate
@@ -66,7 +66,7 @@ tulos: ./manage.py makemigrations tuli vastaus "no changes detected".
 
 ![Screenshot 2023-02-26 at 23 21 54](https://user-images.githubusercontent.com/104775534/221438004-c6650976-bdb7-4ee1-b969-5009f7a1abe7.png)
 
-Seuraavaksi luodaan "superkäyttäjä", jolla voidaan kirjautua sisään
+### Seuraavaksi luodaan "superkäyttäjä", jolla voidaan kirjautua sisään
 
     ./manage.py createsuperuser
     
@@ -74,7 +74,7 @@ tulos:
 
 ![Screenshot 2023-02-26 at 23 34 00](https://user-images.githubusercontent.com/104775534/221438684-f9295903-6b01-49bf-b844-595aa04097fb.png)
 
-Luodaan käyttäjä sivun "users     add" kohdasta
+### Luodaan käyttäjä sivun "users     add" kohdasta
 
 
 Valitaan uudelle käyttäjälle staff- ja superuser-statukset
@@ -97,7 +97,7 @@ lisätään mbg ympäristöön: INSTALLED_APPS = ['mbg',]
 
 ![Screenshot 2023-02-27 at 0 09 07](https://user-images.githubusercontent.com/104775534/221440413-f7a74243-25ba-4111-b3f1-bf7095bd9624.png)
 
-Seuraavaksi luodaan scripti, jolla django luo automaattisesti databasen
+### Seuraavaksi luodaan scripti, jolla django luo automaattisesti databasen
 
         micro mbg/models.py
         
