@@ -121,4 +121,30 @@ Käynnistetään apache uusiksi ja tarkistetaan onnistuiko
 
 Kaikki näyttää siltä miltä pitääkin!
 
+### Otetaan DEBUG pois päältä
+
+    cd
+    cd publicwsgi/jeremco/jeremyco
+    micro settings.py
+    
+Muokataan DEBUG = False ja lisätään ALLOWED_HOSTS
+
+![Screenshot 2023-03-01 at 21 51 37](https://user-images.githubusercontent.com/104775534/222250768-13649bab-921a-49db-94ae-41f74a19af40.png)
+
+Päivitetään ilman sudoa
+
+    touch wsgi.py
+    
+Tulos: 
+
+![Screenshot 2023-03-01 at 21 54 26](https://user-images.githubusercontent.com/104775534/222251303-941205fd-0f56-4048-8802-95da30bfde17.png)
+
+
+
+
+
+
+
+
+
 
