@@ -29,3 +29,68 @@ Kävin kopoimassa vanhasta conf tiedostosta mallin ja muutan siinä DocumentRoot
 
 ![Screenshot 2023-03-01 at 20 42 20](https://user-images.githubusercontent.com/104775534/222234877-4b1e1967-a445-4886-8832-6de2696ce94b.png)
 
+### Seuraavaksi otetaan uusi conf tiedosto käyttöön ja vanha pois käytöstä. Tehdään myös configtest.
+
+    sudo a2ensite jeremyco.conf
+    sudo a2dissite etusivu.conf
+    /sbin/apache2ctl configtest
+    
+![Screenshot 2023-03-01 at 20 49 06](https://user-images.githubusercontent.com/104775534/222236122-cae05d99-783b-4272-83bf-e358b55bab91.png)
+
+Testi ok, joten käynnistetään apache2 uusiksi
+
+    sudo systemctl restart apache2
+    
+Ei menny niiku strömsöössä. käydään tutkimassa conf tiedostoa uusiksi..
+
+![Screenshot 2023-03-01 at 20 56 44](https://user-images.githubusercontent.com/104775534/222237669-c6d1d189-7d8a-4aeb-8e8d-f1cf50a71059.png)
+
+Conf tiedostossa oli /static/ kirjoitettu isolla, siksi ei löytynyt. Uusi apache2 restart ja tulos: 
+
+![Screenshot 2023-03-01 at 20 59 08](https://user-images.githubusercontent.com/104775534/222238118-d10f0968-186a-4279-a0df-3c9a5de3fb6d.png)
+
+
+### Seuraavaksi luodaan virtuaaliympäristö (virtualenv) luomaamme "django" kansioihin.
+
+    cd publicwsgi/
+    virtualenv -p python3 --system-site-packages env
+    
+### Asennetaan Django ympäristöön
+
+    source env/bin/activate
+    micro requirements.txt # kirjoitetaan tiedostoon vain django
+    pip install -r requirements.txt
+    
+Tulos: 
+
+![Screenshot 2023-03-01 at 21 09 52](https://user-images.githubusercontent.com/104775534/222240300-8599bbdd-e59c-4ca4-b766-f9fd3f89e424.png)
+
+    
+### Luodaan uusi django projekti
+
+    django-admin startproject jeremyco
+
+
+![Screenshot 2023-03-01 at 21 12 09](https://user-images.githubusercontent.com/104775534/222240765-5d1cfa4b-671d-4e25-ae9b-d38ab43835cf.png)
+
+Ei onnannu. Nyt ihan omasta päästäni kokeilen:
+
+    cd jeremyco
+    django-admin startproject
+
+
+![Screenshot 2023-03-01 at 21 13 18](https://user-images.githubusercontent.com/104775534/222240998-0e011ae1-3d34-4e0e-aff3-c04626ddcb81.png)
+
+No ei se nyt ihan lähteny.. Poistetaan jeremyco ja sen sisältö ja sitten luodaan.
+
+    rm -r jeremyco
+    django-admin startproject jeremyco
+
+### Seuraavaksi yhdistetään apache ja django muokkaamaalla jeremyco.cong tiedostoa
+
+
+
+
+
+
+    
