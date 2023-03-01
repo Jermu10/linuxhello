@@ -164,11 +164,21 @@ Lisätään sinne import
     
 ![Screenshot 2023-03-01 at 22 06 30](https://user-images.githubusercontent.com/104775534/222253822-7f35d5aa-3e04-408b-bc7a-2dd2f19f6370.png)
 
-jotain mätää.. Mennään katsomaan settings.py ja BASE_DIR. Oletan, että BASE_DIR oli väärässä paikkaa
+jotain mätää.. Mennään katsomaan settings.py ja BASE_DIR. Oletan, että BASE_DIR oli väärässä paikkaa (importin alla). Nyt näin: 
+
+![Screenshot 2023-03-01 at 22 13 18](https://user-images.githubusercontent.com/104775534/222255169-6c10ee4c-452e-4de3-b9ef-cc3c3308fc26.png)
+
+Tulos: 
+
+![Screenshot 2023-03-01 at 22 13 53](https://user-images.githubusercontent.com/104775534/222255277-52e5eac5-9c5a-44eb-b427-55c504bdfe62.png)
+
+![Screenshot 2023-03-01 at 22 14 09](https://user-images.githubusercontent.com/104775534/222255345-d63bf94b-f2c5-4e4d-a434-58e42d799c59.png)
 
 
+### Kättelyt 
 
+Aikaa meni 2 tuntia. Kivasti oppii kun pitää paljon kirjotella komentoja.
 
+### Lähteet
 
-
-
+https://terokarvinen.com/2022/deploy-django/, https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
