@@ -88,9 +88,35 @@ No ei se nyt ihan lähteny.. Poistetaan jeremyco ja sen sisältö ja sitten luod
 
 ### Seuraavaksi yhdistetään apache ja django muokkaamaalla jeremyco.cong tiedostoa
 
+    sudoedit /etc/apache2/sites-available/jeremyco.conf
 
 
+![Screenshot 2023-03-01 at 21 26 41](https://user-images.githubusercontent.com/104775534/222243871-6d704b57-ebc4-4919-94c1-08ee94df4b05.png)
 
 
-
+### Seuraavaksi asennetaan Apache WSGI moduuli, jotta apache ymmärtää mitä WSGI komennot tarkoittavat. 
     
+    sudo apt-get update
+    sudo apt-get -y install libapache2-mod-wsgi-py3
+
+Tehdään taas configtest
+
+    /sbin/apache2ctl configtest
+    
+![Screenshot 2023-03-01 at 21 32 26](https://user-images.githubusercontent.com/104775534/222245011-bb58ea1c-742b-4ad1-9dd4-35e685616c1e.png)
+
+Käynnistetään apache uusiksi ja tarkistetaan onnistuiko
+
+    sudo systemctl restart apache2
+    curl -s localhost|grep title
+    curl -sI localhost|grep Server
+
+![Screenshot 2023-03-01 at 21 38 ![Screenshot 2023-03-01 at 21 38 31](https://user-images.githubusercontent.com/104775534/222246281-bc564c69-8b2a-4515-8123-397b9f29b4ae.png)
+
+23](https://user-images.githubusercontent.com/104775534/222246253-0a9e2bf6-942a-4851-a363-fb9fa53f6694.png)
+
+![Screenshot 2023-03-01 at 21 40 01](https://user-images.githubusercontent.com/104775534/222246584-57adfd15-55db-4aa5-85d7-c6d50c4acffa.png)
+
+Kaikki näyttää siltä miltä pitääkin!
+
+
