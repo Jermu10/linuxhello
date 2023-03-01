@@ -139,8 +139,32 @@ Tulos:
 
 ![Screenshot 2023-03-01 at 21 54 26](https://user-images.githubusercontent.com/104775534/222251303-941205fd-0f56-4048-8802-95da30bfde17.png)
 
+![Screenshot 2023-03-01 at 21 55 12](https://user-images.githubusercontent.com/104775534/222251444-0847647e-971f-46a2-82dc-79805642aeae.png)
+
+localhost/admin 
+
+![Screenshot 2023-03-01 at 21 56 35](https://user-images.githubusercontent.com/104775534/222251771-429347ca-56d8-4796-a3c6-069a5d8be64e.png)
 
 
+
+### Tehdään admin sivusto paremman näköiseksi
+
+mennään taas settings.py tiedostoon
+
+    cd
+    cd publicwsgi/jeremco/jeremyco
+    micro settings.py
+    
+Lisätään sinne import 
+
+![Screenshot 2023-03-01 at 22 03 02](https://user-images.githubusercontent.com/104775534/222253088-e0ad85e6-406e-4f14-8632-6254afe334d5.png)
+
+    cd .. 
+    ./manage.py collectstatic
+    
+![Screenshot 2023-03-01 at 22 06 30](https://user-images.githubusercontent.com/104775534/222253822-7f35d5aa-3e04-408b-bc7a-2dd2f19f6370.png)
+
+jotain mätää.. Mennään katsomaan settings.py ja BASE_DIR. Oletan, että BASE_DIR oli väärässä paikkaa
 
 
 
