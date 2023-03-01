@@ -111,8 +111,10 @@ Käynnistetään apache uusiksi ja tarkistetaan onnistuiko
     curl -s localhost|grep title
     curl -sI localhost|grep Server
 
-![Screenshot 2023-03-01 at 21 38 ![Screenshot 2023-03-01 at 21 38 31](https://user-images.githubusercontent.com/104775534/222246281-bc564c69-8b2a-4515-8123-397b9f29b4ae.png)
+![Screenshot 2023-03-01 at 21 42 51](https://user-images.githubusercontent.com/104775534/222247350-1d8f4ade-7af7-46dd-b030-75be8e4a308b.png)
 
+
+![Screenshot 2023-03-01 at 21 43 07](https://user-images.githubusercontent.com/104775534/222247416-76f43737-e5d5-43f3-83fc-b62feba47581.png)
 
 
 ![Screenshot 2023-03-01 at 21 40 01](https://user-images.githubusercontent.com/104775534/222246584-57adfd15-55db-4aa5-85d7-c6d50c4acffa.png)
