@@ -113,7 +113,7 @@ Käynnistetään apache uusiksi ja tarkistetaan onnistuiko
 
 ![Screenshot 2023-03-01 at 21 38 ![Screenshot 2023-03-01 at 21 38 31](https://user-images.githubusercontent.com/104775534/222246281-bc564c69-8b2a-4515-8123-397b9f29b4ae.png)
 
-23](https://user-images.githubusercontent.com/104775534/222246253-0a9e2bf6-942a-4851-a363-fb9fa53f6694.png)
+
 
 ![Screenshot 2023-03-01 at 21 40 01](https://user-images.githubusercontent.com/104775534/222246584-57adfd15-55db-4aa5-85d7-c6d50c4acffa.png)
 
