@@ -16,6 +16,8 @@
 
 ### Seuraavaksi luodaan uudelle django sivustolle kansiot ja staattinen sivu
 
+EDIT: jatkossa vain mkdir publicwsgi
+
     mkdir -p publicwsgi/jeremyco/static/
     cd publicwsgi/jeremyco/static/
     micro index.html
