@@ -67,17 +67,23 @@ e - Apache wsgi-moduuli puuttuu
     
 ![Screenshot 2023-03-05 at 22 46 36](https://user-images.githubusercontent.com/104775534/222984985-91eef49f-1b78-447a-8ae2-cf787fbbf769.png)
 
-kokeilin `touch wsgi.py` jos localhostiin saisi errorin, mutta ei saanut
+kokeilin `touch wsgi.py` jos localhostiin saisi errorin, mutta ei saanut. Jälkeen päin mietittynä olisi ehkä pitänyt kokeilla restarttaa apache2 `sudo systemctl restart apache2`
 
 Tämä oli ainut error minkä löysin
 
 ![Screenshot 2023-03-05 at 22 49 53](https://user-images.githubusercontent.com/104775534/222985182-de3ba764-f49c-47e9-ab81-e3c0d472dc38.png)
 
+### f - Väärät domain-nimet ALLOWED_HOSTS kohtaan (manage.py ja DEBUG pitää olla False)
 
+![Screenshot 2023-03-05 at 23 05 27](https://user-images.githubusercontent.com/104775534/222985947-f54b831b-1709-4153-af19-cda50f952d07.png)
 
+    sudo systemctl restart apache2 
+    
+TULOS: 
 
+![Screenshot 2023-03-05 at 23 05 50](https://user-images.githubusercontent.com/104775534/222985973-9b9ab4dd-894a-4aa7-b1d0-23034cadce04.png)
 
-
+Lokeissa ei näy mitään virheitä. Oletan, että ainut error pitääkin näkyä localhostissa, koska sen oikeudet näyttää mitään vietiin pois.
 
 
 
