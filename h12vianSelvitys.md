@@ -38,7 +38,16 @@ TULOS:
 
 ### c - projektikansiolla väärät oikeudet
 
-Tätä en osaa niin en uskaltanut rupee säätää.
+Otetaan projektilta oikeudet veks
+
+    chmod ugo-rwx jeremyco
+    
+![Screenshot 2023-03-05 at 23 18 55](https://user-images.githubusercontent.com/104775534/222986614-43ba7808-fd68-4941-a8cc-28c19fde43b1.png)
+
+![Screenshot 2023-03-05 at 23 19 41](https://user-images.githubusercontent.com/104775534/222986643-e52adb56-b953-4803-a695-6d36087000bd.png)
+
+Palautetaan oikeudet `chmod 755 jeremyco`
+
 
 ### d - kirjoitusvihe Apachen conf tiedostoon
 
