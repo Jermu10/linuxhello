@@ -61,7 +61,7 @@ Kommentoidaan tuo VirtualHost kohta
 ![Screenshot 2023-03-05 at 22 31 32](https://user-images.githubusercontent.com/104775534/222984346-9895bac4-77a2-4ba5-9aec-4ca67886cc79.png)
 
     
-e - Apache wsgi-moduuli puuttuu 
+### e - Apache wsgi-moduuli puuttuu 
 
     sudo apt-get purge libapache2-mod-wsgi-py3
     
