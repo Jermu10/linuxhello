@@ -102,9 +102,16 @@ Tämä ei niinkään error, mutta kertoo, että SIGTERM (ilmeisesti restart pros
 
 kokeilin `touch wsgi.py` jos localhostiin saisi errorin, mutta ei saanut. Jälkeen päin mietittynä olisi ehkä pitänyt kokeilla restarttaa apache2 `sudo systemctl restart apache2`
 
-Tämä oli ainut error minkä löysin
+Tämä oli ainut error minkä löysin. Tämä configtestistä.
+    
+- Syntax error conf tiedostossa jälleen.
+- invalid command 'WSGIDaemonProcess' = virheellinen komento
+    - kertoo, että voisi johtua kirjotusvirheestä tai, että moduulia ei oli palvelimen määrityksissä
+    - error.logeissa ei mitään
 
 ![Screenshot 2023-03-05 at 22 49 53](https://user-images.githubusercontent.com/104775534/222985182-de3ba764-f49c-47e9-ab81-e3c0d472dc38.png)
+    
+
 
 ### f - Väärät domain-nimet ALLOWED_HOSTS kohtaan (manage.py ja DEBUG pitää olla False)
 
@@ -119,5 +126,12 @@ TULOS:
 Lokeissa ei näy mitään virheitä. Oletan, että ainut error pitääkin näkyä localhostissa, koska sen oikeudet näyttää mitään vietiin pois.
 
 
-
+## Kättelyt
+    
+Aikaa meni n. 2tuntia. Vähän työlästä ja väsynyttä mikä näkyy tehtävissä.
+    
+### Lähteet
+    
+- https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+- https://stackify.com/apache-error-log-explained/
 
