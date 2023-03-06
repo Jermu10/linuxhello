@@ -1,5 +1,12 @@
 # h12 - vianSelvitys Sunnuntai 5.3.2023
 
+    Specs:
+
+    Apple M1 Pro
+    Cores 10
+    Memory 16GB
+    macOS Ventura 13.2
+
 ## Luodaan ja analysoidaan ongelmia Djangon tuotantotyyppisessä asennuksessa
 
 ### ALKUTILANNE
