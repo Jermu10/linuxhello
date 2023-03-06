@@ -80,10 +80,19 @@ Kommentoidaan tuo VirtualHost kohta
     
 ![Screenshot 2023-03-05 at 22 27 58](https://user-images.githubusercontent.com/104775534/222984149-ad0fb711-d168-4a51-bdd5-d1bfae6b23cf.png)
 
+- Kertoo aika tarkasti, että Syntax error löytyy tiedostosta /etc/apache/sites-enabled/jeremyco ja rivillä 24
+    - Löytyy </VirtualHost> muttei <VirtualHost>
+- configtest failed = testi epäonnistui
+- Kertoo vielä, ett' errpr logissa voi olla enemän tietoa. Tuskin tuon tarkemmin voi kertoakkaan, mutta mennään katsomaan
+  
+
 ![Screenshot 2023-03-05 at 22 31 04](https://user-images.githubusercontent.com/104775534/222984318-98eac45a-5f28-418a-852f-202c18251baf.png)
 
+`sudo systemctl restart apache2` komentoa yrittäessä tuli, ettei apache2.service ei onnistunut, koska hallinta prosessista tuli error
+    
 ![Screenshot 2023-03-05 at 22 31 32](https://user-images.githubusercontent.com/104775534/222984346-9895bac4-77a2-4ba5-9aec-4ca67886cc79.png)
 
+Tämä ei niinkään error, mutta kertoo, että SIGTERM (ilmeisesti restart prosessi) jäi kesken ja serveri sammutetaan
     
 ### e - Apache wsgi-moduuli puuttuu 
 
