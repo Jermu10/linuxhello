@@ -36,6 +36,13 @@ TULOS:
 
 ![Screenshot 2023-03-05 at 22 12 28](https://user-images.githubusercontent.com/104775534/222983450-5defb94b-5cdb-4d78-ae8c-47aea5e5ed1e.png)
 
+- authz_core:error = oikeuksiin liittyvä error
+- pid = process id
+- client = käyttäjä
+- AH01630: client denied by server configuration = Palvelin estää asiakasta määritysten takia(conf)
+
+Eli yritti päästä noihin kansioihin, mitkä on conffissa asetettu, mutta ei pääse niihin koska ne on siirretty.
+
 ### c - projektikansiolla väärät oikeudet
 
 Otetaan projektilta oikeudet veks
@@ -45,6 +52,14 @@ Otetaan projektilta oikeudet veks
 ![Screenshot 2023-03-05 at 23 18 55](https://user-images.githubusercontent.com/104775534/222986614-43ba7808-fd68-4941-a8cc-28c19fde43b1.png)
 
 ![Screenshot 2023-03-05 at 23 19 41](https://user-images.githubusercontent.com/104775534/222986643-e52adb56-b953-4803-a695-6d36087000bd.png)
+
+- core:error = perus virhetila
+- pid = process id
+- (13)Permission dedied = 13 lupaa kiellettiin
+- AH00035: access to .. because search permission are missing on a component of path = 
+    - Projektilla ei ole luku oikeuksia niin ei pääse lukemaan /admin/login/
+    - Toisessa ei pääse lukemaan /faviacon.ico
+    - referer: http://localhost/admin/login/?next?/admin/ = viittaa tähän sivustoon
 
 Palautetaan oikeudet `chmod 755 jeremyco`
 
