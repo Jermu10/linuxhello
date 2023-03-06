@@ -15,7 +15,8 @@ Kirjoitetaan manage.py pikku virhe STATIC_URL:iin
 
 Päivitetään manage.py
 
-    touch wsgi.py
+    touch wsgi.py # Tämä riitti päivittääkseen sivun
+    sudo systemctl restart apache2
     
 TULOS: 
 
