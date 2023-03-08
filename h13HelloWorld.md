@@ -51,7 +51,7 @@ RUN
     
     ruby --version  # ei ollu, pitää asentaa
     sudo apt-get update
-    sudo apt-get install ruby-full
+    sudo apt-get install ruby-full # katsottu ruby-land.org
     ruby --version
     
 ![Screenshot 2023-03-08 at 11 42 54](https://user-images.githubusercontent.com/104775534/223678398-cf4018de-ea61-482f-ad46-adba9b3383e1.png)
@@ -69,7 +69,7 @@ Juostaan
 ![Screenshot 2023-03-08 at 11 44 32](https://user-images.githubusercontent.com/104775534/223678777-e0436200-0c32-4ddf-b51a-4a7651d83c0f.png)
 
 
-## b - Tee greetme: ohjelma joka tervehtii käyttäjää.
+## b - Tee greetme: ohjelma joka tervehtii käyttäjää. Lähde: https://chat.openai.com/chat
 
     cd
     cd huvipuisto
@@ -82,6 +82,16 @@ TULOS:
 ![Screenshot 2023-03-08 at 12 08 25](https://user-images.githubusercontent.com/104775534/223684485-e4658fa8-ef76-482d-a9e4-80133db8fdc2.png)
 
 ![Screenshot 2023-03-08 at 12 08 37](https://user-images.githubusercontent.com/104775534/223684525-261d13fb-58c6-4387-9dd0-6a83813850ec.png)
+
+## KÄTTELYT
+
+Aikaa kului 40min. Kivaa oli.
+
+## LÄHTEET
+
+- https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+- https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
+- https://www.ruby-lang.org/en/documentation/installation/
 
 
 
