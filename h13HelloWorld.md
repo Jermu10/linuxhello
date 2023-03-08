@@ -106,7 +106,7 @@ Aikaa kului 40min. Kivaa oli.
 - https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
 - https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 - https://www.ruby-lang.org/en/documentation/installation/
-
+- https://chat.openai.com/chat
 
 
 
