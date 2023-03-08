@@ -36,6 +36,8 @@ Kirjoitetaan tiedostoon
 "Juostaan/suoritetaan/runnataan" scripti komennolla
 
     python3 helloworld.py
+    
+Tulos:
 
 ![Screenshot 2023-03-08 at 11 33 09](https://user-images.githubusercontent.com/104775534/223676196-07fa6eb9-0c56-41d4-9a0b-eb1e1e19da6f.png)
 
@@ -50,6 +52,8 @@ Juostaan
     
     bash --version # löytyy!
     bash helloworld.txt
+    
+Tulos:
     
 ![Screenshot 2023-03-08 at 11 38 48](https://user-images.githubusercontent.com/104775534/223677461-2d437de7-e84e-40bb-a744-d3743e892353.png)
 
