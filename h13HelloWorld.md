@@ -1,5 +1,13 @@
 # H13 - Hello World! Keskiviikko 8.3.2023 klo: 11.20
 
+
+    Specs:
+
+    Apple M1 Pro
+    Cores 10
+    Memory 16GB
+    macOS Ventura 13.2
+
 ## a - Käännä "Hei maailma" kolmella kielellä
 
     Hei maailma!
