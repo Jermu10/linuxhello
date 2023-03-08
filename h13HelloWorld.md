@@ -13,7 +13,7 @@ Noniin vitsit sikseen aloitetaan.
 
 Tarkistin aluksi, että löytyyhän masiinasta Python3
   
-        python3 --version # löytyy!
+    python3 --version # löytyy!
         
 Luodaan kansio, johon laitetaan nämä ohjelmat
 
@@ -27,7 +27,7 @@ Kirjoitetaan tiedostoon
 
 "Juostaan/suoritetaan/runnataan" scripti komennolla
 
-        python3 helloworld.py
+    python3 helloworld.py
 
 ![Screenshot 2023-03-08 at 11 33 09](https://user-images.githubusercontent.com/104775534/223676196-07fa6eb9-0c56-41d4-9a0b-eb1e1e19da6f.png)
 
