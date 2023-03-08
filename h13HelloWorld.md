@@ -78,6 +78,8 @@ Juostaan
 
     ruby helloworld.rb
     
+Tulos: 
+    
 ![Screenshot 2023-03-08 at 11 44 32](https://user-images.githubusercontent.com/104775534/223678777-e0436200-0c32-4ddf-b51a-4a7651d83c0f.png)
 
 
