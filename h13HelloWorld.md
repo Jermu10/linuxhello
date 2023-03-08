@@ -85,6 +85,8 @@ Tulos:
 
 ## b - Tee greetme: ohjelma joka tervehtii käyttäjää. Lähde: https://chat.openai.com/chat
 
+Edit. Huomasin, että täähän on tehty tehtävänantoon nähden ihan päin puuta.
+
     cd
     cd huvipuisto
     micro hellouser.py
