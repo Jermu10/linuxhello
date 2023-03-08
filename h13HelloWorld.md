@@ -25,7 +25,7 @@ Kirjoitetaan tiedostoon
 
 ![Screenshot 2023-03-08 at 11 32 06](https://user-images.githubusercontent.com/104775534/223675965-01d5f9ed-a36c-42bd-87c9-fec359261800.png)
 
-"Juostaan/suoritetaan/runnataan" ohjelma komennolla
+"Juostaan/suoritetaan/runnataan" scripti komennolla
 
         python3 helloworld.py
 
