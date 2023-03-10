@@ -57,5 +57,14 @@ Toimii, mutta vähän liikaa vettä omaan makuun..
 
     sudo cp mitajuodaan /usr/local/bin
 
+TULOS: 
+
+![Screenshot 2023-03-10 at 20 47 08](https://user-images.githubusercontent.com/104775534/224400136-c5d2479e-52d3-495d-a5d0-3d0a089aa503.png)
+
+
+![Screenshot 2023-03-10 at 20 46 08](https://user-images.githubusercontent.com/104775534/224399951-aee77302-b5f6-4ee7-b3c9-2bc1fb869d5f.png)
+
+
+
 
 
