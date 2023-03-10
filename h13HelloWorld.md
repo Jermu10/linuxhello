@@ -83,7 +83,7 @@ Tulos:
 ![Screenshot 2023-03-08 at 11 44 32](https://user-images.githubusercontent.com/104775534/223678777-e0436200-0c32-4ddf-b51a-4a7651d83c0f.png)
 
 
-## b - Tee greetme: ohjelma joka tervehtii käyttäjää. Lähde: https://chat.openai.com/chat
+## b - Tee greetme: ohjelma joka tervehtii käyttäjää. Lähde: https://chat.openai.com/chat, https://docs.python.org/3/library/getpass.html
 
 Edit. Huomasin, että täähän on tehty tehtävänantoon nähden ihan päin puuta.
 
@@ -109,7 +109,7 @@ Aikaa kului 40min. Kivaa oli.
 - https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 - https://www.ruby-lang.org/en/documentation/installation/
 - https://chat.openai.com/chat
-
+- https://docs.python.org/3/library/getpass.html
 
 
 
