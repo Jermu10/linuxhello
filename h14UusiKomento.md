@@ -66,5 +66,19 @@ TULOS:
 
 
 
+## c - luo komento, joka tekee jotain monelle tiedostolle
+
+Tehdään tällänen .txt tiedostojen poistaja ruletti
+
+![Screenshot 2023-03-10 at 21 35 12](https://user-images.githubusercontent.com/104775534/224411370-b828efe5-5378-4025-b576-f364a483a730.png)
+
+Testataan, että toimii
+
+![Screenshot 2023-03-10 at 21 32 25](https://user-images.githubusercontent.com/104775534/224410873-113fbc27-910b-46cd-a9fa-62870e07b529.png)
+
+Testataan myös varmuudenvuoksi tämä:
+
+![Screenshot 2023-03-10 at 21 36 21](https://user-images.githubusercontent.com/104775534/224411568-bfd3a74c-b473-4b00-bcfb-eeea847199b7.png)
+
 
 
