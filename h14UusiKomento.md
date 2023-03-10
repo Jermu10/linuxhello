@@ -37,7 +37,8 @@ Perjantain kunniaksi annan sattuman valita illan juomani.
 
     micro mitajuodaan
     
-![Screenshot 2023-03-10 at 20 32 37](https://user-images.githubusercontent.com/104775534/224396290-5fbcba0f-9dd5-45e4-845e-5bc8cdf19506.png)
+![Screenshot 2023-03-10 at 20 44 57](https://user-images.githubusercontent.com/104775534/224399741-f76dedb7-f9bf-4393-a971-627cd8ba2a90.png)
+
 
 Testataan erittäin vakuuttavalla testillä(rämpyttämällä), että ohjelma toimii: 
 
