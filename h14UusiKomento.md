@@ -70,7 +70,7 @@ TULOS:
 
 Tehdään tällänen .txt tiedostojen poistaja ruletti
 
-![Screenshot 2023-03-10 at 21 35 12](https://user-images.githubusercontent.com/104775534/224411370-b828efe5-5378-4025-b576-f364a483a730.png)
+![Screenshot 2023-03-10 at 21 51 37](https://user-images.githubusercontent.com/104775534/224414407-aeb72c9e-ddcc-45c7-ac21-d086100f4dc3.png)
 
 Testataan, että toimii
 
@@ -79,6 +79,24 @@ Testataan, että toimii
 Testataan myös varmuudenvuoksi tämä:
 
 ![Screenshot 2023-03-10 at 21 36 21](https://user-images.githubusercontent.com/104775534/224411568-bfd3a74c-b473-4b00-bcfb-eeea847199b7.png)
+
+### Seuraavaksi annetaan kaikille käyttäjäryhmille oikeudety ajaa tiedosto kerropaiva
+
+    chmod ugo+x ruletti #user,group,other annetaan x = execute luvat
+    ls -l ruletti
+    
+
+### Seuraavaksi kopioidaan tiedosto /usr/local/bin hakemistoon, jonka jälkeen kaikki käyttäjät voivat käyttää komentoa
+
+    sudo cp mitajuodaan /usr/local/bin
+
+TULOS:
+
+![Screenshot 2023-03-10 at 21 54 32](https://user-images.githubusercontent.com/104775534/224414907-47ca3277-fc34-4d71-b45d-6b2637d11148.png)
+
+![Screenshot 2023-03-10 at 21 55 47](https://user-images.githubusercontent.com/104775534/224415125-56eb7fc0-17b7-4262-b44a-a6bca0e7b788.png)
+
+
 
 
 
