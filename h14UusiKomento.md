@@ -43,7 +43,9 @@ TULOS:
 Perjantain kunniaksi annan sattuman valita illan juomani.
 
     micro mitajuodaan
-    
+
+https://docs.python.org/3/library/random.html#random.choice
+
 ![Screenshot 2023-03-10 at 20 44 57](https://user-images.githubusercontent.com/104775534/224399741-f76dedb7-f9bf-4393-a971-627cd8ba2a90.png)
 
 
@@ -78,6 +80,8 @@ TULOS:
 Koodi osittain luoto käyttämällä: https://chat.openai.com/chat
 
 Tehdään tällänen .txt tiedostojen poistaja ruletti. EDIT: Kai tämä sopii tehtävänantoon, kun kaikkia directoryn tiedostot käydään läpi, mutta tehdään vain yhdelle jotain..
+
+https://docs.python.org/3/library/os.html#os.getcwd
 
 ![Screenshot 2023-03-10 at 21 51 37](https://user-images.githubusercontent.com/104775534/224414407-aeb72c9e-ddcc-45c7-ac21-d086100f4dc3.png)
 
