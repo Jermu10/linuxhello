@@ -1,5 +1,12 @@
 # h14 - Uusi komento Perjantai 10.3.2023 19:30
 
+    Specs:
+
+    Apple M1 Pro
+    Cores 10
+    Memory 16GB
+    macOS Ventura 13.2
+
 
 ## a - Tee uusi linux komento Bashilla
 
@@ -86,6 +93,8 @@ Testataan myös varmuudenvuoksi tämä:
 
     chmod ugo+x ruletti #user,group,other annetaan x = execute luvat
     ls -l ruletti
+    
+![Screenshot 2023-03-10 at 22 06 47](https://user-images.githubusercontent.com/104775534/224417604-adaabc43-0bdc-4d54-ba49-e169f8603248.png)
     
 
 ### Seuraavaksi kopioidaan tiedosto /usr/local/bin hakemistoon, jonka jälkeen kaikki käyttäjät voivat käyttää komentoa
