@@ -14,7 +14,7 @@ Aloitetaan luomalla tiedosto jonka sisään kirjoitetaan bash komento
     
 ![Screenshot 2023-03-10 at 20 01 05](https://user-images.githubusercontent.com/104775534/224390050-70fcb7c6-1d96-42fb-8140-94b09286581e.png)
 
-### Seuraavaksi annetaan kaikille käyttäjäryhmille oikeudety ajaa tiedosto kerropaiva
+### Seuraavaksi annetaan kaikille käyttäjäryhmille oikeudet ajaa tiedosto kerropaiva
 
     chmod ugo+x kerropaiva #user,group,other annetaan x = execute luvat
     ls -l kerropaiva
@@ -46,7 +46,7 @@ Testataan erittäin vakuuttavalla testillä(rämpyttämällä), että ohjelma to
 
 Toimii, mutta vähän liikaa vettä omaan makuun..
 
-### Seuraavaksi lisätään tiedostolle oikeudet, että sitä voi kaikki suorittaa 
+### Seuraavaksi annetaan kaikille käyttäjäryhmille oikeudet
 
     chmod ugo+x mitajuodaan #user,group,other annetaan x = execute luvat
     ls -l mitajuodaan
@@ -68,7 +68,9 @@ TULOS:
 
 ## c - luo komento, joka tekee jotain monelle tiedostolle
 
-Tehdään tällänen .txt tiedostojen poistaja ruletti
+Koodi osittain luoto käyttämällä: https://chat.openai.com/chat
+
+Tehdään tällänen .txt tiedostojen poistaja ruletti. EDIT: Kai tämä sopii tehtävänantoon, kun kaikkia directoryn tiedostot käydään läpi, mutta tehdään vain yhdelle jotain..
 
 ![Screenshot 2023-03-10 at 21 51 37](https://user-images.githubusercontent.com/104775534/224414407-aeb72c9e-ddcc-45c7-ac21-d086100f4dc3.png)
 
@@ -80,7 +82,7 @@ Testataan myös varmuudenvuoksi tämä:
 
 ![Screenshot 2023-03-10 at 21 36 21](https://user-images.githubusercontent.com/104775534/224411568-bfd3a74c-b473-4b00-bcfb-eeea847199b7.png)
 
-### Seuraavaksi annetaan kaikille käyttäjäryhmille oikeudety ajaa tiedosto kerropaiva
+### Seuraavaksi annetaan kaikille käyttäjäryhmille oikeudet
 
     chmod ugo+x ruletti #user,group,other annetaan x = execute luvat
     ls -l ruletti
@@ -97,6 +99,13 @@ TULOS:
 ![Screenshot 2023-03-10 at 21 55 47](https://user-images.githubusercontent.com/104775534/224415125-56eb7fc0-17b7-4262-b44a-a6bca0e7b788.png)
 
 
+## Kättelyt
 
+Aikaa kului 1,5h taukoineen. Kivaa oli.
 
+Lähteet:
+- https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/
+- https://docs.python.org/3/library/random.html#random.choice
+- https://docs.python.org/3/library/os.html#os.getcwd
+- https://chat.openai.com/chat
 
